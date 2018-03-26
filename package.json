@@ -2,7 +2,7 @@
   "name": "gods-light",
   "version": "0.1.0",
   "private": true,
-  "homepage": "dmoralestech.github.io/gods-light",
+  "homepage": "https://dmoralestech.github.io/gods-light",
   "devDependencies": {
     "react-scripts": "1.1.1"
   },
