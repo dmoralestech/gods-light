@@ -7,11 +7,10 @@ class App extends Component {
       <div className="App">
         <div class="wrapper">
           <header class="header">
-            <h1>GOD'S LIGHT</h1>
+            <h1>GOD'S LIGHT SYDNEY</h1>
           </header>
           <header class="header">
             <h2>Who are we</h2>
-            <h3>
             <p>
               We are a community of disciples in mission.
             </p>
@@ -28,7 +27,6 @@ class App extends Component {
               God being at the centre of our lives. As such, we are called to be Evangelists - witnesses to God’s work
               in our individual lives. Together we shall bring God’s Light to others.
             </p>
-            </h3>
           </header>
 
           <header class="header"><h2>Our Covenant</h2>
@@ -46,17 +44,17 @@ class App extends Component {
               <li>To praise and worship Him always;</li>
               <li>To ever seek His face;</li>
               <li>To know and serve the truth of His Word in the joy, peace, and love of the Holy Spirit;</li>
-              <li>To believe what He speaks to Ligaya and to be obedient to the truth of his Word and the guidance of
+              <li>To believe what He speaks to God's Light and to be obedient to the truth of his Word and the guidance of
                 His Spirit;
               </li>
-              <li>To offer hospitality to those whom He sends to Ligaya;</li>
-              <li>To widen our hearts to receive those he adds to Ligaya, and</li>
-              <li>To carry out the mission that He is entrusting to Ligaya.</li>
+              <li>To offer hospitality to those whom He sends to God's Light;</li>
+              <li>To widen our hearts to receive those he adds to God's Light, and</li>
+              <li>To carry out the mission that He is entrusting to God's Light.</li>
             </ul>
           </header>
 
-          <div class="panel"> <h2> Announcements</h2> </div>
-          <div class="panel"> <h2> Events </h2> </div>
+          <header class="header"> <h2> Announcements</h2> </header>
+          <header class="header"> <h2> Events </h2> </header>
 
 
         </div>

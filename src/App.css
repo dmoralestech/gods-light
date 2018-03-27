@@ -1,8 +1,12 @@
+
 *,
 *:before,
 *:after {
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
+  -moz-osx-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0,0,0,.01) 0 0 1px;
 }
 
 body {
@@ -15,6 +19,10 @@ body {
 h1,
 p {
   margin: 0 0 1em 0;
+}
+
+ul {
+  text-align: left;
 }
 
 .wrapper {
@@ -35,8 +43,8 @@ p {
 .wrapper {
   display: grid;
   margin: 0 auto;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  grid-auto-rows: minmax(200px, auto);
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-auto-rows: minmax(200px,auto);
 }
 
 .panel {
@@ -62,7 +70,7 @@ p {
 
 
 .wrapper > * {
-  background-color: #444;
+  background-color: #163F62;
   color: #fff;
   border-radius: 5px;
   padding: 20px;
