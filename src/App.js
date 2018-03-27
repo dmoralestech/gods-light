@@ -1,15 +1,65 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React, {Component} from 'react';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Hi Pao</h1>
-        </header>
+        <div class="wrapper">
+          <header class="header">
+            <h1>GOD'S LIGHT</h1>
+          </header>
+          <header class="header">
+            <h2>Who are we</h2>
+            <h3>
+            <p>
+              We are a community of disciples in mission.
+            </p>
+
+            <p>
+              Having received the call in to be “the salt of the earth and light of the world,” we have come to be known
+              as God’s Light. Symbolised by the “bridge” that has become an icon for Sydney, God’s Light sees itself as
+              being a B-R-I-D-G-E.
+            </p>
+
+            <p>
+              We acknowledged that we were Broken individuals, Restored by Christ, and now living In the Spirit as
+              Disciples with
+              God being at the centre of our lives. As such, we are called to be Evangelists - witnesses to God’s work
+              in our individual lives. Together we shall bring God’s Light to others.
+            </p>
+            </h3>
+          </header>
+
+          <header class="header"><h2>Our Covenant</h2>
+
+            <p>In Christ, God has made a covenant with God's Light, a covenant which God's Light members have joyfully received
+              and entered into by faith and baptism. He has called God's Light members to express in a special way this
+              covenant established by His Son, Jesus, through His sacrifice on the cross. He has joined the members
+              together in the bond of steadfast love and faithfulness, and has given them a particular call and
+              mission.</p>
+
+            <p>In response, God's Light members desire:</p>
+
+            <ul>
+              <li>To love and serve Him in lives of daily prayer and service;</li>
+              <li>To praise and worship Him always;</li>
+              <li>To ever seek His face;</li>
+              <li>To know and serve the truth of His Word in the joy, peace, and love of the Holy Spirit;</li>
+              <li>To believe what He speaks to Ligaya and to be obedient to the truth of his Word and the guidance of
+                His Spirit;
+              </li>
+              <li>To offer hospitality to those whom He sends to Ligaya;</li>
+              <li>To widen our hearts to receive those he adds to Ligaya, and</li>
+              <li>To carry out the mission that He is entrusting to Ligaya.</li>
+            </ul>
+          </header>
+
+          <div class="panel"> <h2> Announcements</h2> </div>
+          <div class="panel"> <h2> Events </h2> </div>
+
+
+        </div>
       </div>
     );
   }
