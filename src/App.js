@@ -9,8 +9,9 @@ class App extends Component {
         <div class="wrapper">
           <header class="header">
             <div class="header-title-container">
-              <img src={logo} alt="logo" height="200px" width="150px"/>
+              <img src={logo} alt="logo" height="150px" width="125px"/>
               <h1>GOD'S LIGHT SYDNEY</h1>
+              <h4>“You are the light of the world.”</h4>
             </div>
           </header>
           <header class="panel1">
