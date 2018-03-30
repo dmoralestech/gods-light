@@ -81,17 +81,22 @@ ul {
   color: #0D2C5B;
   /*background-color: #A7D6EB ;*/
   /*color: #0D2C5B;*/
+
+}
+
+.header-title-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 img {
   position: relative;
   /*border: 1px solid black;*/
   /*display: inline-block;*/
-  margin: 0;
+  margin: 18px;
   padding: 0;
   align-items: center;
 }
@@ -101,6 +106,7 @@ h1 {
   font-weight: 900;
   margin: 10px;
   padding: 0;
+  /*border: 1px solid black;*/
 }
 
 h2 {
@@ -112,6 +118,7 @@ h2 {
 
 h4 {
   font-weight: 400;
+  margin: 24px;
 }
 
 p {
@@ -158,7 +165,19 @@ p {
 
 
 
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: 25px;
+    font-weight: 900;
+    margin: 0;
+  }
 
+  h2 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+}
 
 
 
