@@ -7,9 +7,11 @@ class App extends Component {
       <div className="App">
         <div class="wrapper">
           <header class="header">
-            <h1>GOD'S LIGHT SYDNEY</h1>
+            <div class="header-title-container">
+              <h1>GOD'S LIGHT SYDNEY</h1>
+            </div>
           </header>
-          <header class="header">
+          <header class="panel1">
             <h2>Who are we</h2>
             <p>
               We are a community of disciples in mission.
@@ -29,7 +31,7 @@ class App extends Component {
             </p>
           </header>
 
-          <header class="header"><h2>Our Covenant</h2>
+          <header class="panel2"><h2>Our Covenant</h2>
 
             <p>In Christ, God has made a covenant with God's Light, a covenant which God's Light members have joyfully received
               and entered into by faith and baptism. He has called God's Light members to express in a special way this
@@ -53,8 +55,10 @@ class App extends Component {
             </ul>
           </header>
 
-          <header class="header"> <h2> Announcements</h2> </header>
-          <header class="header"> <h2> Events </h2> </header>
+          <header class="panel3"> <h2> Announcements</h2> </header>
+          <header class="panel4"> <h2> Events </h2> </header>
+          <header class="panel5"> <h2> Contact Us </h2> </header>
+
 
 
         </div>
