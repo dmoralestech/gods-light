@@ -22,10 +22,12 @@ class App extends Component {
               as God’s Light.
             </p>
 
-            <p>
-              <a href="/who-are-we">Read more...</a>
-            </p>
-
+            <button
+              type="button"
+              className="btn"
+            >
+              Read More
+            </button>
             {/*<p>*/}
             {/*Having received the call in to be “the salt of the earth and light of the world,” we have come to be known*/}
             {/*as God’s Light. Symbolised by the “bridge” that has become an icon for Sydney, God’s Light sees itself as*/}
@@ -45,9 +47,12 @@ class App extends Component {
             <p>In Christ, God has made a covenant with God's Light, a covenant which God's Light members have joyfully
               received and entered into by faith and baptism. </p>
 
-            <p>
-              <a href="/covenant">Read more...</a>
-            </p>
+            <button
+              type="button"
+              className="btn"
+            >
+              Read More
+            </button>
 
             {/*<p>*/}
             {/*He has called God's Light members to express in a special way this*/}
@@ -78,15 +83,17 @@ class App extends Component {
             </p>
           </header>
           <header className="panel4"><h2> Events </h2>
-
+            <p>
             <ul>
               <li>1st April - Easter Celebration</li>
               <li>6th/7th April - Bible Timeline</li>
             </ul>
-
+            </p>
           </header>
           <header className="panel5"><h2> Contact Us </h2>
+            <p>
             Please email <a href="mailto:jawo@ginebra.com?Subject=Ginebra">Robert Jaworski</a> for more info:
+            </p>
           </header>
 
 
