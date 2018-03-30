@@ -78,7 +78,7 @@ ul {
   font-size: large;
   background-color: #DCE7F2; ;
   /*background-color: #FFFFFF ;*/
-  color: #5E82A3;
+  color: #0D2C5B;
   /*background-color: #A7D6EB ;*/
   /*color: #0D2C5B;*/
   display: flex;
@@ -95,6 +95,7 @@ img {
   padding: 0;
   align-items: center;
 }
+
 h1 {
   font-size: 60px;
   font-weight: 900;
@@ -145,7 +146,7 @@ p {
   font-size: large;
   background-color: #91ABC4;
   /*background-color: #167C80;*/
-  color: #DCE7F2;
+  color: #000000;
 }
 
 .panel5 {
