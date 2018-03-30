@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import logo from './img/logo1.jpg';
+import clouds from './img/clouds.jpg';
 import './App.css';
 
 class App extends Component {
@@ -7,7 +8,7 @@ class App extends Component {
     return (
       <div className="App">
         <div class="wrapper">
-          <header class="header">
+          <header class="header" backgroundImage={'url(${clouds})'}>
             <div class="header-title-container">
               <img src={logo} alt="logo" height="150px" width="125px"/>
               <h1>GOD'S LIGHT SYDNEY</h1>
@@ -15,7 +16,7 @@ class App extends Component {
             </div>
           </header>
           <header class="panel1">
-            <h2>Who are we</h2>
+            <h2>WHO ARE WE</h2>
             <p>
               We are a community of disciples in mission.
             </p>
