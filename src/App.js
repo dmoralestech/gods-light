@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import logo from './img/logo1.jpg';
 import './App.css';
 
 class App extends Component {
@@ -8,6 +9,7 @@ class App extends Component {
         <div class="wrapper">
           <header class="header">
             <div class="header-title-container">
+              <img src={logo} alt="logo" height="200px" width="150px"/>
               <h1>GOD'S LIGHT SYDNEY</h1>
             </div>
           </header>
@@ -33,7 +35,8 @@ class App extends Component {
 
           <header class="panel2"><h2>Our Covenant</h2>
 
-            <p>In Christ, God has made a covenant with God's Light, a covenant which God's Light members have joyfully received
+            <p>In Christ, God has made a covenant with God's Light, a covenant which God's Light members have joyfully
+              received
               and entered into by faith and baptism. He has called God's Light members to express in a special way this
               covenant established by His Son, Jesus, through His sacrifice on the cross. He has joined the members
               together in the bond of steadfast love and faithfulness, and has given them a particular call and
@@ -46,7 +49,8 @@ class App extends Component {
               <li>To praise and worship Him always;</li>
               <li>To ever seek His face;</li>
               <li>To know and serve the truth of His Word in the joy, peace, and love of the Holy Spirit;</li>
-              <li>To believe what He speaks to God's Light and to be obedient to the truth of his Word and the guidance of
+              <li>To believe what He speaks to God's Light and to be obedient to the truth of his Word and the guidance
+                of
                 His Spirit;
               </li>
               <li>To offer hospitality to those whom He sends to God's Light;</li>
@@ -55,10 +59,9 @@ class App extends Component {
             </ul>
           </header>
 
-          <header class="panel3"> <h2> Announcements</h2> </header>
-          <header class="panel4"> <h2> Events </h2> </header>
-          <header class="panel5"> <h2> Contact Us </h2> </header>
-
+          <header class="panel3"><h2> Announcements</h2></header>
+          <header class="panel4"><h2> Events </h2></header>
+          <header class="panel5"><h2> Contact Us </h2></header>
 
 
         </div>

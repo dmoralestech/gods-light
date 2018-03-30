@@ -77,22 +77,21 @@ ul {
 .header {
   font-size: large;
   /*background-color: #16528E;*/
-  background-color: #FFFFFF;
-  color: #16528E;
-  display: flex;
+  background-color: #A7D6EB ;
+  color: #0D2C5B;
+  display:flex;
   justify-content: center;
-  align-content: center;
   align-items: center;
 }
 
 h1 {
-  font-size: 80px;
+  font-size: 60px;
   font-weight: 900;
 }
 
 h2 {
-  font-size: 40px;
-  font-weight: 500;
+  font-size: 35px;
+  font-weight: 700;
 }
 
 p {
@@ -109,7 +108,7 @@ p {
 }
 .panel1 {
   font-size: large;
-  background-color: #E2623F;
+  background-color: #DC7012;
   color: #FFFFFF;
 }
 
@@ -122,7 +121,8 @@ p {
 
 .panel3 {
   font-size: large;
-  background-color: #E54B4B;
+  background-color: #C72230 ;
+  color: #FFFFFF  ;
   /*background-color: #2A2829;*/
 }
 
@@ -134,7 +134,7 @@ p {
 
 .panel5 {
   font-size: large;
-  background-color: #16528E;
+  background-color: #0D2C5B;
   /*background-color: #E8846B;*/
 }
 
