@@ -86,7 +86,7 @@ class App extends Component {
 
           </header>
           <header className="panel5"><h2> Contact Us </h2>
-            Please email <a href="mailto:john@smith.ee?Subject=Challenge yourself">Robert Jaworski</a> for more info:
+            Please email <a href="mailto:jawo@ginebra.com?Subject=Ginebra">Robert Jaworski</a> for more info:
           </header>
 
 
