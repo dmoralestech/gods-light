@@ -5,8 +5,7 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div>
-        {/*<div class="cover" style={ {backgroundImage: `url(${cover})`, backgroundSize: 'cover', backgroundPosition: '50% 50%' } }>*/}
+      <div className="main">
         <div className="cover">
           <div className="header-title-container">
             <img src={logo} alt="logo" height="150px" width="125px"/>
@@ -111,10 +110,19 @@ class App extends Component {
             <div className="box-text-area">
               <ul>
                 <li>1st April - Easter Celebration</li>
-                <li>6th/7th April - Bible Timeline</li>
+                <li>6th/7th April - Bible Study</li>
               </ul>
             </div>
           </header>
+        </div>
+        <div className="section-row">
+          <div className="section-title">
+            Come! You are welcome to join us
+          </div>
+          <div className="section-text">We meet twice a month, 1st and 3rd Sunday of the week. Hope to see you there!
+          </div>
+        </div>
+        <div className="wrapper">
           <header className="panel5">
             <h2> Contact Us </h2>
             <div className="box-text-area">
