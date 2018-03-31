@@ -185,7 +185,7 @@ h4 {
   background-size: cover;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480px), (min-width: 480px) and (max-width: 768px) {
   h1 {
     font-size: 30px;
     font-weight: 900;
