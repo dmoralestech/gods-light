@@ -17,17 +17,20 @@ class App extends Component {
         <div className="wrapper">
           <header className="panel1">
             <h2>WHO ARE WE</h2>
-            <p>
-              We are a community of disciples in mission. Having received the call in to be “the salt of the earth and light of the world,” we have come to be known
-              as God’s Light.
-            </p>
+            <div className="">
+              <p>
+                We are a community of disciples in mission. Having received the call in to be “the salt of the earth and
+                light of the world,” we have come to be known
+                as God’s Light.
+              </p>
 
-            <button
-              type="button"
-              className="btn"
-            >
-              Read More
-            </button>
+              <button
+                type="button"
+                className="btn"
+              >
+                Read More
+              </button>
+            </div>
             {/*<p>*/}
             {/*Having received the call in to be “the salt of the earth and light of the world,” we have come to be known*/}
             {/*as God’s Light. Symbolised by the “bridge” that has become an icon for Sydney, God’s Light sees itself as*/}
@@ -84,15 +87,15 @@ class App extends Component {
           </header>
           <header className="panel4"><h2> Events </h2>
             <p>
-            <ul>
-              <li>1st April - Easter Celebration</li>
-              <li>6th/7th April - Bible Timeline</li>
-            </ul>
+              <ul>
+                <li>1st April - Easter Celebration</li>
+                <li>6th/7th April - Bible Timeline</li>
+              </ul>
             </p>
           </header>
           <header className="panel5"><h2> Contact Us </h2>
             <p>
-            Please email <a href="mailto:jawo@ginebra.com?Subject=Ginebra">Robert Jaworski</a> for more info:
+              Please email <a href="mailto:jawo@ginebra.com?Subject=Ginebra">Robert Jaworski</a> for more info:
             </p>
           </header>
 
