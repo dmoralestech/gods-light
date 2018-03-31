@@ -3,7 +3,6 @@
 *:before,
 *:after {
   box-sizing: border-box;
-  /*font-family: 'Open Sans', sans-serif;*/
   font-family: 'Montserrat', sans-serif;
   -moz-osx-font-smoothing: antialiased;
   -webkit-font-smoothing: antialiased;
@@ -30,9 +29,36 @@ body {
   opacity: 1;
   background-image: url('./img/raylight.jpg');
   background-size: cover;
-  margin: 1px 1px 24px 1px;
+  margin: 0;
   padding: 0;
-  border-radius: 10px;
+  border-radius: 1px;
+}
+
+.header-title-container, .section-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.section-row {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.section-title {
+  color: #0D2C5B;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 18px;
+}
+
+.section-text {
+  color: #0D2C5B;
+  font-weight: 500;
+  font-size: 20px;
+  max-width: 1200px;
 }
 
 h1,
@@ -54,7 +80,7 @@ li {
   max-width: 1024px;
   margin: 0;
   display: grid;
-  grid-column-gap: 24px;
+  grid-column-gap: 1px;
   grid-row-gap: 24px;
 }
 
@@ -83,7 +109,7 @@ li {
 .wrapper > * {
   background-color: #FFFFFF;
   color: #FFFFFF;
-  border-radius: 10px;
+  border-radius: 1px;
   padding: 20px;
   font-size: 150%;
   margin-bottom: 10px;
@@ -107,14 +133,6 @@ li {
 
 }
 
-.header-title-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-
 img {
   position: relative;
   /*border: 1px solid black;*/
@@ -129,7 +147,7 @@ h1 {
   font-weight: 900;
   margin: 10px;
   padding: 0;
-  text-shadow: 3px 2px darkgray;
+  text-shadow: 3px 2px #5E82A3;
   color: white;
   /*text-shadow: 3px 2px #5E82A3;*/
   /*border: 1px solid black;*/
@@ -242,9 +260,26 @@ p {
     background-image: url('./img/raylight_small.jpg');
     background-size: cover;
   }
+
+  .section-row {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .section-title {
+    font-size: 20px;
+    font-weight: 700;
+    max-width: 300px;
+  }
+
+  .section-text {
+    max-width: 300px;
+    font-size: 15px;
+    font-weight: 400;
+  }
 }
 
-@media screen and (min-width: 421px) and (max-width: 812px){
+@media screen and (min-width: 421px) and (max-width: 1024px){
   h1 {
     font-size: 40px;
     font-weight: 900;
@@ -254,6 +289,22 @@ p {
   h2 {
     font-size: 30px;
     font-weight: 700;
+  }
+  .section-row {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .section-title {
+    font-size: 30px;
+    font-weight: 700;
+    max-width: 700px;
+  }
+
+  .section-text {
+    max-width: 700px;
+    font-size: 20px;
+    font-weight: 400;
   }
 }
 

@@ -14,6 +14,15 @@ class App extends Component {
             <h4>“You are the light of the world.” (Matthew 5: 14)</h4>
           </div>
         </div>
+        <div className="section-row">
+          <div className="section-title">
+            God’s Light  is a family-based covenant community in Sydney, Australia
+          </div>
+          <div className="section-text">
+            Having received the call in to be “the salt of the earth and light of the world,” we have come to be known as God’s Light. Symbolised by the “bridge” that has become an icon for Sydney, God’s Light sees itself as
+            being a B-R-I-D-G-E.
+          </div>
+        </div>
         <div className="wrapper">
           <header className="panel1">
             <h2>WHO ARE WE</h2>
@@ -44,7 +53,6 @@ class App extends Component {
             {/*in our individual lives. Together we shall bring God’s Light to others.*/}
             {/*</p>*/}
           </header>
-
           <header className="panel2"><h2>Our Covenant</h2>
             <div className="box-text-area">
               <p className="box-text">In Christ, God has made a covenant with God's Light, a covenant which God's
@@ -81,7 +89,17 @@ class App extends Component {
             {/*<li>To carry out the mission that He is entrusting to God's Light.</li>*/}
             {/*</ul>*/}
           </header>
+        </div>
 
+        <div className="section-row">
+          <div className="section-title">
+            God's Light is a community of disciples
+          </div>
+          <div className="section-text">
+            We have made our commitment to God and each other. We gather together to share our faith and fellowship allowing the Light of our Lord to shine brightly in us and in the way we live.
+          </div>
+        </div>
+        <div className="wrapper">
           <header className="panel3">
             <h2> Announcements</h2>
             <div className="box-text-area">
@@ -93,23 +111,21 @@ class App extends Component {
           <header className="panel4">
             <h2> Events </h2>
             <div className="box-text-area">
-                <ul>
-                  <li>1st April - Easter Celebration</li>
-                  <li>6th/7th April - Bible Timeline</li>
-                </ul>
+              <ul>
+                <li>1st April - Easter Celebration</li>
+                <li>6th/7th April - Bible Timeline</li>
+              </ul>
             </div>
           </header>
           <header className="panel5">
             <h2> Contact Us </h2>
             <div className="box-text-area">
-            <p className="box-text">
-              Please email <a href="mailto:jawo@ginebra.com?Subject=Ginebra" style={{color: 'black'}}>Robert
-              Jaworski</a> for more info:
-            </p>
-              </div>
+              <p className="box-text">
+                Please email <a href="mailto:jawo@ginebra.com?Subject=Ginebra" style={{color: 'black'}}>Robert
+                Jaworski</a> for more info:
+              </p>
+            </div>
           </header>
-
-
         </div>
       </div>
     );
