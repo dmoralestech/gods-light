@@ -127,7 +127,7 @@ class App extends Component {
             <h2> Contact Us </h2>
             <div className="box-text-area">
               <p className="box-text">
-                Please email <a href="mailto:jawo@ginebra.com?Subject=Ginebra" style={{color: 'black'}}>Robert
+                Please email <a className="email" href="mailto:jawo@ginebra.com?Subject=Ginebra">Robert
                 Jaworski</a> for more info:
               </p>
             </div>

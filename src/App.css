@@ -139,6 +139,14 @@ h4 {
   color: #0D2C5B;
 }
 
+.email{
+  color: black;
+}
+
+.email:hover{
+  color: #0D2C5B;
+}
+
 
 .panel1 {
   background-color: #DC7012;
