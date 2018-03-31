@@ -1,10 +1,10 @@
 {
-  "main.css": "static/css/main.548d65d8.css",
-  "main.css.map": "static/css/main.548d65d8.css.map",
-  "main.js": "static/js/main.39180425.js",
-  "main.js.map": "static/js/main.39180425.js.map",
+  "main.css": "static/css/main.cdab8bd8.css",
+  "main.css.map": "static/css/main.cdab8bd8.css.map",
+  "main.js": "static/js/main.45cd7952.js",
+  "main.js.map": "static/js/main.45cd7952.js.map",
   "static/media/announce.jpg": "static/media/announce.25a02a14.jpg",
-  "static/media/cover.jpg": "static/media/cover.6beca4f8.jpg",
-  "static/media/cover_small.jpg": "static/media/cover_small.92dc3728.jpg",
-  "static/media/lightray.jpg": "static/media/lightray.3876f0f5.jpg"
+  "static/media/lightray.jpg": "static/media/lightray.3876f0f5.jpg",
+  "static/media/raylight.jpg": "static/media/raylight.e0cfcb84.jpg",
+  "static/media/raylight_small.jpg": "static/media/raylight_small.c5d2664f.jpg"
 }
