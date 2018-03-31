@@ -8,8 +8,9 @@ class App extends Component {
       <div className="main">
         <div className="cover">
           <div className="header-title-container">
+            <h1>GOD'S LIGHT</h1>
             <img src={logo} alt="logo" height="150px" width="125px"/>
-            <h1>GOD'S LIGHT SYDNEY</h1>
+            <h1>SYDNEY</h1>
             <h4>“You are the light of the world.” (Matthew 5: 14)</h4>
           </div>
         </div>
