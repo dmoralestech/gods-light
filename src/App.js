@@ -17,8 +17,8 @@ class App extends Component {
         <div className="wrapper">
           <header className="panel1">
             <h2>WHO ARE WE</h2>
-            <div className="edge-title-area">
-              <p className="edge-title">
+            <div className="box-text-area">
+              <p className="box-text">
                 We are a community of disciples in mission. Having received the call in to be “the salt of the earth and
                 light of the world,” we have come to be known
                 as God’s Light.
@@ -46,8 +46,8 @@ class App extends Component {
           </header>
 
           <header className="panel2"><h2>Our Covenant</h2>
-            <div className="edge-title-area">
-              <p className="edge-title">In Christ, God has made a covenant with God's Light, a covenant which God's
+            <div className="box-text-area">
+              <p className="box-text">In Christ, God has made a covenant with God's Light, a covenant which God's
                 Light members have joyfully
                 received and entered into by faith and baptism. </p>
             </div>
@@ -84,15 +84,15 @@ class App extends Component {
 
           <header className="panel3">
             <h2> Announcements</h2>
-            <div className="edge-title-area">
-              <p className="edge-title">
+            <div className="box-text-area">
+              <p className="box-text">
                 Easter celebration would be this Sunday 1st April at 11:30am at Epping.
               </p>
             </div>
           </header>
           <header className="panel4">
             <h2> Events </h2>
-            <div className="edge-title-area">
+            <div className="box-text-area">
                 <ul>
                   <li>1st April - Easter Celebration</li>
                   <li>6th/7th April - Bible Timeline</li>
@@ -101,8 +101,8 @@ class App extends Component {
           </header>
           <header className="panel5">
             <h2> Contact Us </h2>
-            <div className="edge-title-area">
-            <p className="edge-title">
+            <div className="box-text-area">
+            <p className="box-text">
               Please email <a href="mailto:jawo@ginebra.com?Subject=Ginebra" style={{color: 'black'}}>Robert
               Jaworski</a> for more info:
             </p>

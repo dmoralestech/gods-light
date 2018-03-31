@@ -266,7 +266,7 @@ p {
   }
 }
 
-.edge-title-area {
+.box-text-area {
   opacity: 0.6;
   background-color: white;
   /*background-color: #DCE7F2;*/
@@ -276,7 +276,7 @@ p {
   color: white;
 }
 
-.edge-title {
+.box-text {
   opacity: 2;
   font-weight:300;
   color: black;
