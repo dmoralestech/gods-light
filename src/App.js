@@ -98,7 +98,7 @@ class App extends Component {
         </div>
         <div className="wrapper">
           <header className="panel3">
-            <h2> Announcements</h2>
+            <h2>Announcements</h2>
             <div className="box-text-area">
               <p className="box-text">
                 Easter celebration would be this Sunday 1st April at 11:30am at Epping.
@@ -106,7 +106,7 @@ class App extends Component {
             </div>
           </header>
           <header className="panel4">
-            <h2> Events </h2>
+            <h2>What's coming up?</h2>
             <div className="box-text-area">
               <ul>
                 <li>1st April - Easter Celebration</li>
