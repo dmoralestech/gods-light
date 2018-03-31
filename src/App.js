@@ -17,20 +17,20 @@ class App extends Component {
         <div className="wrapper">
           <header className="panel1">
             <h2>WHO ARE WE</h2>
-            <div className="">
-              <p>
+            <div className="edge-title-area">
+              <p className="edge-title">
                 We are a community of disciples in mission. Having received the call in to be “the salt of the earth and
                 light of the world,” we have come to be known
                 as God’s Light.
               </p>
-
-              <button
-                type="button"
-                className="btn"
-              >
-                Read More
-              </button>
             </div>
+            <button
+              type="button"
+              className="btn"
+            >
+              Read More
+            </button>
+
             {/*<p>*/}
             {/*Having received the call in to be “the salt of the earth and light of the world,” we have come to be known*/}
             {/*as God’s Light. Symbolised by the “bridge” that has become an icon for Sydney, God’s Light sees itself as*/}
@@ -46,9 +46,11 @@ class App extends Component {
           </header>
 
           <header className="panel2"><h2>Our Covenant</h2>
-
-            <p>In Christ, God has made a covenant with God's Light, a covenant which God's Light members have joyfully
-              received and entered into by faith and baptism. </p>
+            <div className="edge-title-area">
+              <p className="edge-title">In Christ, God has made a covenant with God's Light, a covenant which God's
+                Light members have joyfully
+                received and entered into by faith and baptism. </p>
+            </div>
 
             <button
               type="button"
@@ -80,23 +82,31 @@ class App extends Component {
             {/*</ul>*/}
           </header>
 
-          <header className="panel3"><h2> Announcements</h2>
-            <p>
-              Easter celebration would be this Sunday 1st April at 11:30am at Epping.
-            </p>
+          <header className="panel3">
+            <h2> Announcements</h2>
+            <div className="edge-title-area">
+              <p className="edge-title">
+                Easter celebration would be this Sunday 1st April at 11:30am at Epping.
+              </p>
+            </div>
           </header>
-          <header className="panel4"><h2> Events </h2>
-            <p>
-              <ul>
-                <li>1st April - Easter Celebration</li>
-                <li>6th/7th April - Bible Timeline</li>
-              </ul>
-            </p>
+          <header className="panel4">
+            <h2> Events </h2>
+            <div className="edge-title-area">
+                <ul>
+                  <li>1st April - Easter Celebration</li>
+                  <li>6th/7th April - Bible Timeline</li>
+                </ul>
+            </div>
           </header>
-          <header className="panel5"><h2> Contact Us </h2>
-            <p>
-              Please email <a href="mailto:jawo@ginebra.com?Subject=Ginebra">Robert Jaworski</a> for more info:
+          <header className="panel5">
+            <h2> Contact Us </h2>
+            <div className="edge-title-area">
+            <p className="edge-title">
+              Please email <a href="mailto:jawo@ginebra.com?Subject=Ginebra" style={{color: 'black'}}>Robert
+              Jaworski</a> for more info:
             </p>
+              </div>
           </header>
 
 

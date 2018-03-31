@@ -38,10 +38,16 @@ body {
 h1,
 p {
   margin: 0 0 1em 0;
+  color: black;
 }
 
 ul {
   text-align: left;
+}
+
+li {
+  color: black;
+  margin-bottom: 6px;
 }
 
 .wrapper {
@@ -145,7 +151,7 @@ h4 {
 
 p {
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 300;
   font-family: 'Roboto Mono', monospace;
 }
 
@@ -219,19 +225,6 @@ p {
   color: #FFFFFF;
 }
 
-.text-block {
-  position: absolute;
-  left: 2%;
-  top: 35%;
-  background-color: white;
-  right: 2%;
-  bottom: 2%;
-  border-radius: 20px;
-  opacity: 0.7;
-  color: black;
-  padding: 10px;
-}
-
 @media screen and (max-width: 420px) {
   h1 {
     font-size: 25px;
@@ -272,3 +265,20 @@ p {
     margin: 0;
   }
 }
+
+.edge-title-area {
+  opacity: 0.6;
+  background-color: white;
+  /*background-color: #DCE7F2;*/
+  padding: 12px;
+  border-radius: 3px;
+  margin-bottom: 12px;
+  color: white;
+}
+
+.edge-title {
+  opacity: 2;
+  font-weight:300;
+  color: black;
+}
+
