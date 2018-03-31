@@ -92,11 +92,9 @@ class App extends Component {
         </div>
 
         <div className="section-row">
-          <div className="section-title">
-            God's Light is a community of disciples
+          <div className="section-title">God's Light is a community of disciples
           </div>
-          <div className="section-text">
-            We have made our commitment to God and each other. We gather together to share our faith and fellowship allowing the Light of our Lord to shine brightly in us and in the way we live.
+          <div className="section-text">We have made our commitment to God and each other. We gather together to share our faith and fellowship allowing the Light of our Lord to shine brightly in us and in the way we live.
           </div>
         </div>
         <div className="wrapper">
