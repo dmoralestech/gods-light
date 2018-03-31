@@ -24,7 +24,6 @@ body {
   font-size: large;
   background-color: #DCE7F2;
   color: #0D2C5B;
-  /*color: white;*/
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -33,6 +32,7 @@ body {
   background-size: cover;
   margin: 1px 1px 24px 1px;
   padding: 0;
+  border-radius: 10px;
 }
 
 h1,
@@ -130,6 +130,7 @@ h1 {
   margin: 10px;
   padding: 0;
   text-shadow: 3px 2px darkgray;
+  color: white;
   /*text-shadow: 3px 2px #5E82A3;*/
   /*border: 1px solid black;*/
 }
