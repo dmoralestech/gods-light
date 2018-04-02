@@ -20,14 +20,12 @@ const Cover = () => (
 
 const Page1Main = () => (
   <div>
-    <Cover />
     Page1
   </div>
 );
 
 const Page1_1 = () => (
   <div>
-    <Cover />
     Page1-1
   </div>
 );
@@ -48,7 +46,6 @@ const Page2 = () => (
 
 const Main = () => (
   <div className="main">
-    <Cover />
     <div className="section-row">
       <div className="section-title">
         God’s Light is a family-based covenant community in Sydney, Australia
@@ -174,11 +171,14 @@ const Main = () => (
 );
 
 const App = () => (
-  <Switch>
-    <Route exact path='/' component={Main}/>
-    <Route path='/page1' component={Page1}/>
-    <Route path='/page2' component={Page2}/>
-  </Switch>
+  <div>
+    <Cover />
+    <Switch>
+      <Route exact path='/' component={Main}/>
+      <Route path='/page1' component={Page1}/>
+      <Route path='/page2' component={Page2}/>
+    </Switch>
+  </div>
 );
 
 
