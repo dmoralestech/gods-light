@@ -19,14 +19,14 @@ const Cover = () => (
 );
 
 const Footer = () => (
-  <div>
-
+  <div className="footer-row">
+    God's Light 2004-2018
   </div>
 );
 
 const WhoWeAre = () => (
   <div className="section-row">
-    <div className="section-title">
+    <div className="page-title">
       Who Are We
     </div>
     <p>
@@ -52,7 +52,7 @@ const WhoWeAre = () => (
 
 const OurCovenant = () => (
   <div className="section-row">
-    <div className="section-title">
+    <div className="page-title">
       Our Covenant
     </div>
     <p>In Christ, God has made a covenant with God's Light, a covenant which God's
@@ -184,6 +184,7 @@ const App = () => (
       <Route path='/who-we-are' component={WhoWeAre}/>
       <Route path='/our-covenant' component={OurCovenant}/>
     </Switch>
+    <Footer />
   </div>
 );
 
