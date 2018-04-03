@@ -18,8 +18,17 @@ const Cover = () => (
   </div>
 );
 
+const Footer = () => (
+  <div>
+
+  </div>
+);
+
 const WhoWeAre = () => (
   <div className="section-row">
+    <div className="section-title">
+      Who Are We
+    </div>
     <p>
       We are a community of disciples in mission. Having received the call in to be “the salt of the earth and
       light of the world,” we have come to be known
@@ -43,30 +52,34 @@ const WhoWeAre = () => (
 
 const OurCovenant = () => (
   <div className="section-row">
+    <div className="section-title">
+      Our Covenant
+    </div>
     <p>In Christ, God has made a covenant with God's Light, a covenant which God's
       Light members have joyfully
       received and entered into by faith and baptism. </p>
 
     <p>
-    He has called God's Light members to express in a special way this
-    covenant established by His Son, Jesus, through His sacrifice on the cross. He has joined the members
-    together in the bond of steadfast love and faithfulness, and has given them a particular call and
-    mission.
+      He has called God's Light members to express in a special way this
+      covenant established by His Son, Jesus, through His sacrifice on the cross. He has joined the members
+      together in the bond of steadfast love and faithfulness, and has given them a particular call and
+      mission.
     </p>
+
     <p>In response, God's Light members desire:</p>
 
     <ul>
-    <li>To love and serve Him in lives of daily prayer and service;</li>
-    <li>To praise and worship Him always;</li>
-    <li>To ever seek His face;</li>
-    <li>To know and serve the truth of His Word in the joy, peace, and love of the Holy Spirit;</li>
-    <li>To believe what He speaks to God's Light and to be obedient to the truth of his Word and the guidance
-    of
-    His Spirit;
-    </li>
-    <li>To offer hospitality to those whom He sends to God's Light;</li>
-    <li>To widen our hearts to receive those he adds to God's Light, and</li>
-    <li>To carry out the mission that He is entrusting to God's Light.</li>
+      <li>To love and serve Him in lives of daily prayer and service;</li>
+      <li>To praise and worship Him always;</li>
+      <li>To ever seek His face;</li>
+      <li>To know and serve the truth of His Word in the joy, peace, and love of the Holy Spirit;</li>
+      <li>To believe what He speaks to God's Light and to be obedient to the truth of his Word and the guidance
+        of
+        His Spirit;
+      </li>
+      <li>To offer hospitality to those whom He sends to God's Light;</li>
+      <li>To widen our hearts to receive those he adds to God's Light, and</li>
+      <li>To carry out the mission that He is entrusting to God's Light.</li>
     </ul>
   </div>
 );

@@ -68,7 +68,7 @@ ul {
   text-align: left;
 }
 
-li {
+li, p {
   color: black;
   margin-bottom: 3px;
   font-size: 20px;
