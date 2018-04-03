@@ -250,8 +250,8 @@ h4 {
   }
 
   .section-title {
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 24px;
+    font-weight: 800;
   }
 
   .section-text {
@@ -291,11 +291,12 @@ h4 {
   }
 
   .section-title {
-    font-size: 30px;
+    font-size: 36px;
+    font-weight: 800;
   }
 
   .section-text {
-    font-size: 20px;
+    font-size: 24px;
   }
 
   .page-title {
