@@ -18,29 +18,56 @@ const Cover = () => (
   </div>
 );
 
-const Page1Main = () => (
-  <div>
-    Page1
+const WhoWeAre = () => (
+  <div className="section-row">
+    <p>
+      We are a community of disciples in mission. Having received the call in to be “the salt of the earth and
+      light of the world,” we have come to be known
+      as God’s Light.
+    </p>
+
+    <p>
+      Having received the call in to be “the salt of the earth and light of the world,” we have come to be known
+      as God’s Light. Symbolised by the “bridge” that has become an icon for Sydney, God’s Light sees itself as
+      being a B-R-I-D-G-E.
+    </p>
+
+    <p>
+      We acknowledged that we were Broken individuals, Restored by Christ, and now living In the Spirit as
+      Disciples with
+      God being at the centre of our lives. As such, we are called to be Evangelists - witnesses to God’s work
+      in our individual lives. Together we shall bring God’s Light to others.
+    </p>
   </div>
 );
 
-const Page1_1 = () => (
-  <div>
-    Page1-1
-  </div>
-);
+const OurCovenant = () => (
+  <div className="section-row">
+    <p>In Christ, God has made a covenant with God's Light, a covenant which God's
+      Light members have joyfully
+      received and entered into by faith and baptism. </p>
 
-const Page1 = () => (
-  <Switch>
-    <Route exact path='/page1' component={Page1Main}/>
-    <Route exact path='/page1/page1-1' component={Page1_1}/>
-  </Switch>
-);
+    <p>
+    He has called God's Light members to express in a special way this
+    covenant established by His Son, Jesus, through His sacrifice on the cross. He has joined the members
+    together in the bond of steadfast love and faithfulness, and has given them a particular call and
+    mission.
+    </p>
+    <p>In response, God's Light members desire:</p>
 
-const Page2 = () => (
-  <div>
-    <Cover />
-    page 2
+    <ul>
+    <li>To love and serve Him in lives of daily prayer and service;</li>
+    <li>To praise and worship Him always;</li>
+    <li>To ever seek His face;</li>
+    <li>To know and serve the truth of His Word in the joy, peace, and love of the Holy Spirit;</li>
+    <li>To believe what He speaks to God's Light and to be obedient to the truth of his Word and the guidance
+    of
+    His Spirit;
+    </li>
+    <li>To offer hospitality to those whom He sends to God's Light;</li>
+    <li>To widen our hearts to receive those he adds to God's Light, and</li>
+    <li>To carry out the mission that He is entrusting to God's Light.</li>
+    </ul>
   </div>
 );
 
@@ -70,21 +97,9 @@ const Main = () => (
           type="button"
           className="btn"
         >
-          <Link to='/page1'>Read More</Link>
+          <Link to='/who-we-are'>Read More</Link>
         </button>
 
-        {/*<p>*/}
-        {/*Having received the call in to be “the salt of the earth and light of the world,” we have come to be known*/}
-        {/*as God’s Light. Symbolised by the “bridge” that has become an icon for Sydney, God’s Light sees itself as*/}
-        {/*being a B-R-I-D-G-E.*/}
-        {/*</p>*/}
-
-        {/*<p>*/}
-        {/*We acknowledged that we were Broken individuals, Restored by Christ, and now living In the Spirit as*/}
-        {/*Disciples with*/}
-        {/*God being at the centre of our lives. As such, we are called to be Evangelists - witnesses to God’s work*/}
-        {/*in our individual lives. Together we shall bring God’s Light to others.*/}
-        {/*</p>*/}
       </header>
       <header className="panel2"><h2>Our Covenant</h2>
         <div className="box-text-area">
@@ -96,30 +111,8 @@ const Main = () => (
           type="button"
           className="btn"
         >
-          <Link to='/page2'>Read More</Link>
+          <Link to='/our-covenant'>Read More</Link>
         </button>
-
-        {/*<p>*/}
-        {/*He has called God's Light members to express in a special way this*/}
-        {/*covenant established by His Son, Jesus, through His sacrifice on the cross. He has joined the members*/}
-        {/*together in the bond of steadfast love and faithfulness, and has given them a particular call and*/}
-        {/*mission.*/}
-        {/*</p>*/}
-        {/*<p>In response, God's Light members desire:</p>*/}
-
-        {/*<ul>*/}
-        {/*<li>To love and serve Him in lives of daily prayer and service;</li>*/}
-        {/*<li>To praise and worship Him always;</li>*/}
-        {/*<li>To ever seek His face;</li>*/}
-        {/*<li>To know and serve the truth of His Word in the joy, peace, and love of the Holy Spirit;</li>*/}
-        {/*<li>To believe what He speaks to God's Light and to be obedient to the truth of his Word and the guidance*/}
-        {/*of*/}
-        {/*His Spirit;*/}
-        {/*</li>*/}
-        {/*<li>To offer hospitality to those whom He sends to God's Light;</li>*/}
-        {/*<li>To widen our hearts to receive those he adds to God's Light, and</li>*/}
-        {/*<li>To carry out the mission that He is entrusting to God's Light.</li>*/}
-        {/*</ul>*/}
       </header>
     </div>
 
@@ -175,8 +168,8 @@ const App = () => (
     <Cover />
     <Switch>
       <Route exact path='/' component={Main}/>
-      <Route path='/page1' component={Page1}/>
-      <Route path='/page2' component={Page2}/>
+      <Route path='/who-we-are' component={WhoWeAre}/>
+      <Route path='/our-covenant' component={OurCovenant}/>
     </Switch>
   </div>
 );
