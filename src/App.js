@@ -136,6 +136,7 @@ const Main = () => (
         our faith and fellowship allowing the Light of our Lord to shine brightly in us and in the way we live.
       </div>
     </div>
+
     <div className="wrapper">
       <header className="panel3">
         <h2>Announcements</h2>
@@ -155,6 +156,7 @@ const Main = () => (
         </div>
       </header>
     </div>
+
     <div className="section-row">
       <div className="section-title">
         Come! You are welcome to join us
@@ -162,6 +164,37 @@ const Main = () => (
       <div className="section-text">We meet twice a month, 1st and 3rd Sunday of the week. Hope to see you there!
       </div>
     </div>
+
+    <div className="wrapper">
+      <header className="panel1">
+        <h2>Leader's Corner</h2>
+        <div className="box-text-area">
+          <p className="box-text">
+            Easter Message...
+          </p>
+        </div>
+        <button
+          type="button"
+          className="btn"
+        >
+          <Link to='/missing'>Read More</Link>
+        </button>
+      </header>
+      <header className="panel3">
+        <h2>Sharings & Reflections</h2>
+        <div className="box-text-area">
+          <p>More Sharings...
+          </p>
+        </div>
+        <button
+          type="button"
+          className="btn"
+        >
+          <Link to='/missing'>Read More</Link>
+        </button>
+      </header>
+    </div>
+
     <div className="wrapper">
       <header className="panel5">
         <h2> Contact Us </h2>

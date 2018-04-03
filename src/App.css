@@ -159,6 +159,11 @@ h4 {
   color: #0D2C5B;
 }
 
+.btn:visited {
+  border: 3px solid red;
+  color: #FFFFFF;
+}
+
 .email{
   color: black;
 }
@@ -205,6 +210,17 @@ h4 {
   background-size: cover;
 }
 
+
+.panel6 {
+  /*background-color: #FFFFFF;*/
+  /*color: #0D2C5B;*/
+  /*!*background-color: #1978D1;*!*/
+  background-image: url('./img/commty.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*border: 5px solid #DCE7F2;*/
+}
+
 @media (max-width: 480px), (min-width: 480px) and (max-width: 768px) {
   h1 {
     font-size: 30px;
@@ -213,8 +229,8 @@ h4 {
   }
 
   h2 {
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 25px;
+    font-weight: 800;
   }
 
   h4 {
@@ -261,7 +277,7 @@ h4 {
   }
 
   h2 {
-    font-size: 30px;
+    font-size: 35px;
   }
 
   h4 {
@@ -285,6 +301,10 @@ h4 {
   .page-title {
     font-size: 40px;
     font-weight: 700;
+  }
+
+  .footer-row {
+    font-size: 16px;
   }
 }
 
