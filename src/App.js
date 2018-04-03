@@ -24,7 +24,7 @@ const Footer = () => (
   </div>
 );
 
-const WhoWeAre = () => (
+const WhoAreWe = () => (
   <div className="section-row">
     <div className="page-title">
       Who Are We
@@ -110,7 +110,7 @@ const Main = () => (
           type="button"
           className="btn"
         >
-          <Link to='/who-we-are'>Read More</Link>
+          <Link to='/who-are-we'>Read More</Link>
         </button>
 
       </header>
@@ -211,10 +211,17 @@ const Main = () => (
 
 const App = () => (
   <div>
+    <div className="topnav" id="myTopnav">
+      <a href="#home" className="active">Home</a>
+      <a href="#who-are-we">Who Are We</a>
+      <a href="#our-covenant">Our Covenant</a>
+      <a href="javascript:void(0);" className="icon" onClick="myFunction()">&#9776;</a>
+    </div>
     <Cover />
     <Switch>
       <Route exact path='/' component={Main}/>
-      <Route path='/who-we-are' component={WhoWeAre}/>
+      <Route exact path='/home' component={Main}/>
+      <Route path='/who-are-we' component={WhoAreWe}/>
       <Route path='/our-covenant' component={OurCovenant}/>
     </Switch>
     <Footer />
