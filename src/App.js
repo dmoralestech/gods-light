@@ -5,6 +5,9 @@ import {
   Link
 } from 'react-router-dom';
 import logo from './img/logo1.png';
+import jesus from './img/jesus.svg';
+import family from './img/family.svg';
+import church from './img/church.svg';
 import './App.css';
 
 const Cover = () => (
@@ -21,6 +24,7 @@ const Cover = () => (
 const Footer = () => (
   <div className="footer-row">
     God's Light 2004-2018
+    <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
   </div>
 );
 
@@ -87,6 +91,7 @@ const OurCovenant = () => (
 const Main = () => (
   <div className="main">
     <div className="section-row">
+      <img src={family} style={{width: '100px', height:"100px"}}/>
       <div className="section-title">
         God’s Light is a family-based covenant community in Sydney, Australia
       </div>
@@ -144,6 +149,7 @@ const Main = () => (
     </div>
 
     <div className="section-row">
+      <img src={jesus} style={{width: '100px', height:"100px"}}/>
       <div className="section-title">God's Light is a community of disciples
       </div>
       <div className="section-text">We have made our commitment to God and each other. We gather together to share
@@ -172,6 +178,7 @@ const Main = () => (
     </div>
 
     <div className="section-row">
+      <img src={church} style={{width: '100px', height:"100px"}}/>
       <div className="section-title">
         Come! You are welcome to join us
       </div>
