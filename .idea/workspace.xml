@@ -106,8 +106,8 @@
           <file leaf-file-name="App.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/App.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="342">
-                  <caret line="320" column="3" selection-start-line="320" selection-start-column="3" selection-end-line="320" selection-end-column="3" />
+                <state relative-caret-position="360">
+                  <caret line="105" column="51" selection-start-line="105" selection-start-column="51" selection-end-line="105" selection-end-column="51" />
                   <folding />
                 </state>
               </provider>
@@ -607,8 +607,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="320" column="3" selection-start-line="320" selection-start-column="3" selection-end-line="320" selection-end-column="3" />
+        <state relative-caret-position="360">
+          <caret line="105" column="51" selection-start-line="105" selection-start-column="51" selection-end-line="105" selection-end-column="51" />
           <folding />
         </state>
       </provider>
