@@ -206,6 +206,38 @@ const Main = () => (
         </div>
       </header>
     </div>
+
+    <div className="section-row" style={{backgroundColor: '#0D2C5B', color: 'white'}}>
+      <div className="section-title" style={{color: 'white'}}>
+        Lorem ipsum dolor sit amet
+      </div>
+      <div className="section-text" style={{color: 'white'}}>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </div>
+    </div>
+
+    <div className="section-row" style={{backgroundColor: '#DC7012', color: 'white'}}>
+      <div className="section-title" style={{color: 'white'}}>
+        Lorem ipsum dolor sit amet
+      </div>
+      <div className="section-text" style={{color: 'white'}}>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </div>
+    </div>
+
+    <div className="section-row" style={{backgroundColor: '#C72230', color: 'white'}}>
+      <div className="section-title" style={{color: 'white'}}>
+        Lorem ipsum dolor sit amet
+      </div>
+      <div className="section-text" style={{color: 'white'}}>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </div>
+    </div>
+
+
   </div>
 );
 
