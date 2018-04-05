@@ -56,9 +56,10 @@ body {
 .footer-row {
   font-family: 'Roboto Mono', monospace;
   font-weight: 600;
+  font-size: 20px;
   color: #FFFFFF;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   padding-left: 150px;
   padding-right: 150px;
   background-color: #0D2C5B;
@@ -231,7 +232,7 @@ h4 {
 
   h2 {
     font-size: 25px;
-    font-weight: 800;
+    font-weight: 900;
   }
 
   h4 {
@@ -256,7 +257,7 @@ h4 {
   }
 
   .section-text {
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 400;
   }
 
@@ -279,6 +280,7 @@ h4 {
 
   h2 {
     font-size: 35px;
+    font-weight: 900;
   }
 
   h4 {
@@ -302,7 +304,7 @@ h4 {
 
   .page-title {
     font-size: 40px;
-    font-weight: 800;
+    font-weight: 900;
   }
 
   .footer-row {
