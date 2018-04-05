@@ -7,7 +7,10 @@ import {
 import logo from './img/logo1.png';
 import jesus from './img/jesus.svg';
 import family from './img/family.svg';
+import familyBlack from './img/family_black.svg';
+import familyWhite from './img/family_white.svg';
 import church from './img/church.svg';
+import pray from './img/pray.svg';
 import './App.css';
 
 const Cover = () => (
@@ -96,14 +99,16 @@ const Main = () => (
         God’s Light is a family-based covenant community in Sydney, Australia
       </div>
       <div className="section-text">
-        Having received the call in to be “the salt of the earth and light of the world,” we have come to be known
+        Having received the call in to be <strong>“the salt of the earth and light of the world,”</strong> we have come to be known
         as God’s Light. Symbolised by the “bridge” that has become an icon for Sydney, God’s Light sees itself as
         being a B-R-I-D-G-E.
       </div>
     </div>
     <div className="wrapper">
       <header className="panel1">
-        <h2>WHO ARE WE</h2>
+        <div>
+         <span><h2>WHO ARE WE</h2></span>
+        </div>
         <div className="box-text-area">
           <p className="box-text">
             We are a community of disciples in mission. Having received the call in to be “the salt of the earth and
@@ -178,7 +183,7 @@ const Main = () => (
     </div>
 
     <div className="section-row">
-      <img src={church} style={{width: '100px', height:"100px"}}/>
+      <img src={pray} style={{width: '100px', height:"100px"}}/>
       <div className="section-title">
         Come! You are welcome to join us
       </div>
@@ -191,7 +196,7 @@ const Main = () => (
         <h2>Leader's Corner</h2>
         <div className="box-text-area">
           <p className="box-text">
-            Easter Message...
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
           </p>
         </div>
         <button
@@ -204,7 +209,8 @@ const Main = () => (
       <header className="panel3">
         <h2>Sharings & Reflections</h2>
         <div className="box-text-area">
-          <p>More Sharings...
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
           </p>
         </div>
         <button
@@ -247,6 +253,7 @@ const Main = () => (
     </div>
 
     <div className="section-row" style={{backgroundColor: '#C72230', color: 'white'}}>
+      <img src={familyWhite} style={{width: '100px', height:"100px"}}/>
       <div className="section-title" style={{color: 'white'}}>
         Lorem ipsum dolor sit amet
       </div>
