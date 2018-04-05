@@ -27,7 +27,7 @@ body {
   height: 100vh;
   display: flex;
   opacity: 1;
-  background-image: url('./img/raylight.jpg');
+  background-image: url('./img/landscape2.jpg');
   background-size: cover;
   margin: 0;
   padding: 0;
@@ -126,7 +126,7 @@ h1 {
   font-weight: 900;
   margin: 10px;
   padding: 0;
-  color: white;
+  color: lightgrey;
 }
 
 h2 {
@@ -140,7 +140,7 @@ h4 {
   font-family: 'Roboto Mono', monospace;
   font-weight: 700;
   margin: 24px;
-  color: white;
+  color: lightgrey  ;
   text-shadow: 1px 1px #5E82A3;
 }
 
@@ -232,7 +232,7 @@ h4 {
   }
 
   h1 {
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 900;
     margin: 0;
   }
@@ -247,7 +247,7 @@ h4 {
   }
 
   .cover {
-    background-image: url('./img/raylight_small.jpg');
+    background-image: url('./img/landscape2_small.jpg');
     background-size: cover;
     margin-bottom: 24px;
     width: 100vw;
@@ -301,7 +301,7 @@ h4 {
 
 @media (min-width: 768px) and (max-width: 1224px) {
   h1 {
-    font-size: 60px;
+    font-size: 100px;
   }
 
   h2 {
@@ -356,7 +356,7 @@ h4 {
 
 @media  (min-width: 1224px) {
   h1 {
-    font-size: 100px;
+    font-size: 160px;
   }
 
   h4 {
