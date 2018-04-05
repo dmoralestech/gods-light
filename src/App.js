@@ -128,11 +128,11 @@ const Main = () => (
         </button>
       </header>
 
-      <header className="panel2"><h2>Our Covenant</h2>
+      <header className="panel5"><h2>Lorem Ipsum</h2>
         <div className="box-text-area">
-          <p className="box-text">In Christ, God has made a covenant with God's Light, a covenant which God's
-            Light members have joyfully
-            received and entered into by faith and baptism. </p>
+          <p className="box-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
         </div>
         <button
           type="button"
