@@ -377,9 +377,9 @@ h4 {
   background-color: white;
   font-weight: 500;
   /*background-color: #DCE7F2;*/
-  padding: 12px;
-  border-radius: 3px;
-  margin-bottom: 24px;
+  padding: 18px;
+  border-radius: 5px;
+  margin: 6px 6px 18px;
   color: white;
 }
 
