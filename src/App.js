@@ -127,6 +127,20 @@ const Main = () => (
           <Link to='/our-covenant'>Read More</Link>
         </button>
       </header>
+
+      <header className="panel2"><h2>Our Covenant</h2>
+        <div className="box-text-area">
+          <p className="box-text">In Christ, God has made a covenant with God's Light, a covenant which God's
+            Light members have joyfully
+            received and entered into by faith and baptism. </p>
+        </div>
+        <button
+          type="button"
+          className="btn"
+        >
+          <Link to='/our-covenant'>Read More</Link>
+        </button>
+      </header>
     </div>
 
     <div className="section-row">
@@ -193,9 +207,7 @@ const Main = () => (
           <Link to='/missing'>Read More</Link>
         </button>
       </header>
-    </div>
 
-    <div className="wrapper">
       <header className="panel5">
         <h2> Contact Us </h2>
         <div className="box-text-area">
