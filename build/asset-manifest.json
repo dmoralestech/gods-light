@@ -1,13 +1,16 @@
 {
   "main.css": "static/css/main.e465cee7.css",
   "main.css.map": "static/css/main.e465cee7.css.map",
-  "main.js": "static/js/main.61d59e0e.js",
-  "main.js.map": "static/js/main.61d59e0e.js.map",
+  "main.js": "static/js/main.9961ea4f.js",
+  "main.js.map": "static/js/main.9961ea4f.js.map",
   "static/media/announce.jpg": "static/media/announce.25a02a14.jpg",
   "static/media/church.svg": "static/media/church.7b971b2a.svg",
   "static/media/family.svg": "static/media/family.a2794c46.svg",
+  "static/media/family_black.svg": "static/media/family_black.572bbb46.svg",
+  "static/media/family_white.svg": "static/media/family_white.8ac805c9.svg",
   "static/media/jesus.svg": "static/media/jesus.3729b2fc.svg",
   "static/media/landscape2.jpg": "static/media/landscape2.17e58692.jpg",
   "static/media/landscape2_small.jpg": "static/media/landscape2_small.53b0ab81.jpg",
-  "static/media/lightray.jpg": "static/media/lightray.3876f0f5.jpg"
+  "static/media/lightray.jpg": "static/media/lightray.3876f0f5.jpg",
+  "static/media/pray.svg": "static/media/pray.2ae3784a.svg"
 }

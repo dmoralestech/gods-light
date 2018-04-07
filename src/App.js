@@ -91,6 +91,31 @@ const OurCovenant = () => (
   </div>
 );
 
+
+const SectionTitle = (props) => (
+  <div className="section-title">
+    {props.children}
+  </div>
+);
+
+const SectionText = (props) => (
+  <div className="section-text">
+    {props.children}
+  </div>
+);
+
+// const SectionRow = (icon, sectionTitle, sectionText) => (
+//   <div className="section-row">
+//     {icon && <img src={icon} style={{width: '100px', height:"100px"}}/>}
+//     <div className="section-title">
+//       sectionTitle
+//     </div>
+//     <div className="section-text">
+//       sectionText
+//     </div>
+//   </div>
+// );
+
 const Main = () => (
   <div className="main">
     <div className="section-row">
