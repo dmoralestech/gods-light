@@ -27,7 +27,10 @@ const Cover = () => (
 const Footer = () => (
   <div className="footer-row">
     God's Light 2004-2018
-    <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+    <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a
+      href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a
+      href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+    </div>
   </div>
 );
 
@@ -92,47 +95,28 @@ const OurCovenant = () => (
 );
 
 
-const SectionTitle = (props) => (
-  <div className="section-title">
-    {props.children}
+const SectionRow = (props) => (
+  <div className="section-row">
+    {props.icon && <img src={props.icon} style={{width: '100px', height: "100px"}}/>}
+    <div className="section-title">
+      {props.title}
+    </div>
+    <div className="section-text">
+      {props.text}
+    </div>
   </div>
 );
-
-const SectionText = (props) => (
-  <div className="section-text">
-    {props.children}
-  </div>
-);
-
-// const SectionRow = (icon, sectionTitle, sectionText) => (
-//   <div className="section-row">
-//     {icon && <img src={icon} style={{width: '100px', height:"100px"}}/>}
-//     <div className="section-title">
-//       sectionTitle
-//     </div>
-//     <div className="section-text">
-//       sectionText
-//     </div>
-//   </div>
-// );
 
 const Main = () => (
   <div className="main">
-    <div className="section-row">
-      <img src={family} style={{width: '100px', height:"100px"}}/>
-      <div className="section-title">
-        God’s Light is a family-based covenant community in Sydney, Australia
-      </div>
-      <div className="section-text">
-        Having received the call in to be <strong>“the salt of the earth and light of the world,”</strong> we have come to be known
+    <SectionRow icon={family} title='God’s Light is a family-based covenant community in Sydney, Australia'
+                text='Having received the call in to be “the salt of the earth and light of the world,” we have come to be known
         as God’s Light. Symbolised by the “bridge” that has become an icon for Sydney, God’s Light sees itself as
-        being a B-R-I-D-G-E.
-      </div>
-    </div>
+        being a B-R-I-D-G-E.'/>
     <div className="wrapper">
       <header className="panel1">
         <div>
-         <span><h2>WHO ARE WE</h2></span>
+          <span><h2>WHO ARE WE</h2></span>
         </div>
         <div className="box-text-area">
           <p className="box-text">
@@ -166,7 +150,8 @@ const Main = () => (
       <header className="panel5"><h2>Lorem Ipsum</h2>
         <div className="box-text-area">
           <p className="box-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.
           </p>
         </div>
         <button
@@ -179,7 +164,7 @@ const Main = () => (
     </div>
 
     <div className="section-row">
-      <img src={jesus} style={{width: '100px', height:"100px"}}/>
+      <img src={jesus} style={{width: '100px', height: "100px"}}/>
       <div className="section-title">God's Light is a community of disciples
       </div>
       <div className="section-text">We have made our commitment to God and each other. We gather together to share
@@ -208,7 +193,7 @@ const Main = () => (
     </div>
 
     <div className="section-row">
-      <img src={pray} style={{width: '100px', height:"100px"}}/>
+      <img src={pray} style={{width: '100px', height: "100px"}}/>
       <div className="section-title">
         Come! You are welcome to join us
       </div>
@@ -221,7 +206,9 @@ const Main = () => (
         <h2>Leader's Corner</h2>
         <div className="box-text-area">
           <p className="box-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.
           </p>
         </div>
         <button
@@ -235,7 +222,9 @@ const Main = () => (
         <h2>Sharings & Reflections</h2>
         <div className="box-text-area">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.
           </p>
         </div>
         <button
@@ -262,8 +251,9 @@ const Main = () => (
         Lorem ipsum dolor sit amet
       </div>
       <div className="section-text" style={{color: 'white'}}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       </div>
     </div>
 
@@ -272,19 +262,21 @@ const Main = () => (
         Lorem ipsum dolor sit amet
       </div>
       <div className="section-text" style={{color: 'white'}}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       </div>
     </div>
 
     <div className="section-row" style={{backgroundColor: '#C72230', color: 'white'}}>
-      <img src={familyWhite} style={{width: '100px', height:"100px"}}/>
+      <img src={familyWhite} style={{width: '100px', height: "100px"}}/>
       <div className="section-title" style={{color: 'white'}}>
         Lorem ipsum dolor sit amet
       </div>
       <div className="section-text" style={{color: 'white'}}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       </div>
     </div>
 
