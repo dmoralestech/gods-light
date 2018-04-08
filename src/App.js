@@ -107,12 +107,12 @@ const SectionRow = (props) => (
   </div>
 );
 
+
+
 const Main = () => (
   <div className="main">
     <SectionRow icon={family} title='God’s Light is a family-based covenant community in Sydney, Australia'
-                text='Having received the call in to be “the salt of the earth and light of the world,” we have come to be known
-        as God’s Light. Symbolised by the “bridge” that has become an icon for Sydney, God’s Light sees itself as
-        being a B-R-I-D-G-E.'/>
+                text='Having received the call in to be “the salt of the earth and light of the world,” we have come to be known as God’s Light. Symbolised by the “bridge” that has become an icon for Sydney, God’s Light sees itself as being a B-R-I-D-G-E.'/>
     <div className="wrapper">
       <header className="panel1">
         <div>
@@ -146,7 +146,6 @@ const Main = () => (
           <Link to='/our-covenant'>Read More</Link>
         </button>
       </header>
-
       <header className="panel5"><h2>Lorem Ipsum</h2>
         <div className="box-text-area">
           <p className="box-text">
