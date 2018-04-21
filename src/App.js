@@ -111,7 +111,7 @@ const SectionRow = (props) => (
 
 const Main = () => (
   <div className="main">
-    <SectionRow icon={family} title='God’s Light is a family-based covenant community in Sydney, Australia'
+    <SectionRow title='God’s Light is a family-based covenant community in Sydney, Australia'
                 text='Having received the call in to be “the salt of the earth and light of the world,” we have come to be known as God’s Light. Symbolised by the “bridge” that has become an icon for Sydney, God’s Light sees itself as being a B-R-I-D-G-E.'/>
     <div className="wrapper">
       <header className="panel1">
@@ -163,7 +163,6 @@ const Main = () => (
     </div>
 
     <div className="section-row">
-      <img src={jesus} style={{width: '100px', height: "100px"}}/>
       <div className="section-title">God's Light is a community of disciples
       </div>
       <div className="section-text">We have made our commitment to God and each other. We gather together to share
@@ -192,7 +191,6 @@ const Main = () => (
     </div>
 
     <div className="section-row">
-      <img src={pray} style={{width: '100px', height: "100px"}}/>
       <div className="section-title">
         Come! You are welcome to join us
       </div>
