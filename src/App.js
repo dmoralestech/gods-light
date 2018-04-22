@@ -266,7 +266,6 @@ const Main = () => (
     </div>
 
     <div className="section-row" style={{backgroundColor: '#C72230', color: 'white'}}>
-      <img src={familyWhite} style={{width: '100px', height: "100px"}}/>
       <div className="section-title" style={{color: 'white'}}>
         Lorem ipsum dolor sit amet
       </div>
@@ -302,3 +301,20 @@ const App = () => (
 
 
 export default App;
+
+/*
+<Cover>
+</Cover>
+<SectionRow>
+</SectionRow>
+<Wrapper>
+  <Card>
+  </Card>
+ <Card>
+ </Card>
+ <Card>
+ </Card>
+</Wrapper>
+
+
+ */
