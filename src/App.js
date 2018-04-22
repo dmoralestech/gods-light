@@ -162,13 +162,8 @@ const Main = () => (
       </header>
     </div>
 
-    <div className="section-row">
-      <div className="section-title">God's Light is a community of disciples
-      </div>
-      <div className="section-text">We have made our commitment to God and each other. We gather together to share
-        our faith and fellowship allowing the Light of our Lord to shine brightly in us and in the way we live.
-      </div>
-    </div>
+    <SectionRow title="God's Light is a community of disciples"
+    text="We have made our commitment to God and each other. We gather together to share our faith and fellowship allowing the Light of our Lord to shine brightly in us and in the way we live." />
 
     <div className="wrapper">
       <header className="panel3">
@@ -190,13 +185,7 @@ const Main = () => (
       </header>
     </div>
 
-    <div className="section-row">
-      <div className="section-title">
-        Come! You are welcome to join us
-      </div>
-      <div className="section-text">We meet twice a month, 1st and 3rd Sunday of the week. Hope to see you there!
-      </div>
-    </div>
+    <SectionRow title="Come! You are welcome to join us" text="We meet twice a month, 1st and 3rd Sunday of the week. Hope to see you there!" />
 
     <div className="wrapper">
       <header className="panel1">
@@ -243,38 +232,38 @@ const Main = () => (
       </header>
     </div>
 
-    <div className="section-row" style={{backgroundColor: '#0D2C5B', color: 'white'}}>
-      <div className="section-title" style={{color: 'white'}}>
-        Lorem ipsum dolor sit amet
-      </div>
-      <div className="section-text" style={{color: 'white'}}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua.
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      </div>
-    </div>
+    {/*<div className="section-row" style={{backgroundColor: '#0D2C5B', color: 'white'}}>*/}
+      {/*<div className="section-title" style={{color: 'white'}}>*/}
+        {/*Lorem ipsum dolor sit amet*/}
+      {/*</div>*/}
+      {/*<div className="section-text" style={{color: 'white'}}>*/}
+        {/*Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore*/}
+        {/*magna aliqua.*/}
+        {/*Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.*/}
+      {/*</div>*/}
+    {/*</div>*/}
 
-    <div className="section-row" style={{backgroundColor: '#DC7012', color: 'white'}}>
-      <div className="section-title" style={{color: 'white'}}>
-        Lorem ipsum dolor sit amet
-      </div>
-      <div className="section-text" style={{color: 'white'}}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua.
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      </div>
-    </div>
+    {/*<div className="section-row" style={{backgroundColor: '#DC7012', color: 'white'}}>*/}
+      {/*<div className="section-title" style={{color: 'white'}}>*/}
+        {/*Lorem ipsum dolor sit amet*/}
+      {/*</div>*/}
+      {/*<div className="section-text" style={{color: 'white'}}>*/}
+        {/*Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore*/}
+        {/*magna aliqua.*/}
+        {/*Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.*/}
+      {/*</div>*/}
+    {/*</div>*/}
 
-    <div className="section-row" style={{backgroundColor: '#C72230', color: 'white'}}>
-      <div className="section-title" style={{color: 'white'}}>
-        Lorem ipsum dolor sit amet
-      </div>
-      <div className="section-text" style={{color: 'white'}}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua.
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      </div>
-    </div>
+    {/*<div className="section-row" style={{backgroundColor: '#C72230', color: 'white'}}>*/}
+      {/*<div className="section-title" style={{color: 'white'}}>*/}
+        {/*Lorem ipsum dolor sit amet*/}
+      {/*</div>*/}
+      {/*<div className="section-text" style={{color: 'white'}}>*/}
+        {/*Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore*/}
+        {/*magna aliqua.*/}
+        {/*Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.*/}
+      {/*</div>*/}
+    {/*</div>*/}
 
 
   </div>
