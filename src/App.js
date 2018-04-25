@@ -118,11 +118,18 @@ const Panel = ({className, title, text, buttonLink, buttonLabel}) => (
         {text}
       </p>
     </div>
-    <button type="button" className="btn">
+    {buttonLink && <button type="button" className="btn">
       <Link to={buttonLink}>{buttonLabel}</Link>
-    </button>
+    </button>}
 
   </header>
+);
+
+const EventList = () => (
+  <ul>
+    <li>1st April - Easter Celebration</li>
+    <li>6th/7th April - Bible Study</li>
+  </ul>
 );
 
 const Main = () => (
@@ -145,23 +152,9 @@ const Main = () => (
                 text="We have made our commitment to God and each other. We gather together to share our faith and fellowship allowing the Light of our Lord to shine brightly in us and in the way we live."/>
 
     <div className="wrapper">
-      <header className="panel3">
-        <h2>Announcements</h2>
-        <div className="box-text-area">
-          <p className="box-text">
-            Easter celebration would be this Sunday 1st April at 11:30am at Epping.
-          </p>
-        </div>
-      </header>
-      <header className="panel4">
-        <h2>What's coming up?</h2>
-        <div className="box-text-area">
-          <ul>
-            <li>1st April - Easter Celebration</li>
-            <li>6th/7th April - Bible Study</li>
-          </ul>
-        </div>
-      </header>
+      <Panel title="Announcements" className="panel4" text="Easter celebration would be this Sunday 1st April at 11:30am at Epping."/>
+      <Panel title="What's coming up?" className="panel4" text={<EventList/>} buttonLink="" buttonLabel />
+      {/*<Panel title="" className="" text="" buttonLink="" buttonLabel />*/}
     </div>
 
     <SectionRow title="Come! You are welcome to join us"
