@@ -108,62 +108,41 @@ const SectionRow = (props) => (
 );
 
 
+const Panel = ({className, title, text, buttonLink, buttonLabel}) => (
+  <header className={className}>
+    <div>
+      <span><h2>{title}</h2></span>
+    </div>
+    <div className="box-text-area">
+      <p className="box-text">
+        {text}
+      </p>
+    </div>
+    <button type="button" className="btn">
+      <Link to={buttonLink}>{buttonLabel}</Link>
+    </button>
+
+  </header>
+);
 
 const Main = () => (
   <div className="main">
     <SectionRow title='God’s Light is a family-based covenant community in Sydney, Australia'
                 text='Having received the call in to be “the salt of the earth and light of the world,” we have come to be known as God’s Light. Symbolised by the “bridge” that has become an icon for Sydney, God’s Light sees itself as being a B-R-I-D-G-E.'/>
-    <div className="wrapper">
-      <header className="panel1">
-        <div>
-          <span><h2>WHO ARE WE</h2></span>
-        </div>
-        <div className="box-text-area">
-          <p className="box-text">
-            We are a community of disciples in mission. Having received the call in to be “the salt of the earth and
-            light of the world,” we have come to be known
-            as God’s Light.
-          </p>
-        </div>
-        <button
-          type="button"
-          className="btn"
-        >
-          <Link to='/who-are-we'>Read More</Link>
-        </button>
 
-      </header>
-      <header className="panel2"><h2>Our Covenant</h2>
-        <div className="box-text-area">
-          <p className="box-text">In Christ, God has made a covenant with God's Light, a covenant which God's
-            Light members have joyfully
-            received and entered into by faith and baptism. </p>
-        </div>
-        <button
-          type="button"
-          className="btn"
-        >
-          <Link to='/our-covenant'>Read More</Link>
-        </button>
-      </header>
-      <header className="panel5"><h2>Lorem Ipsum</h2>
-        <div className="box-text-area">
-          <p className="box-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua.
-          </p>
-        </div>
-        <button
-          type="button"
-          className="btn"
-        >
-          <Link to='/our-covenant'>Read More</Link>
-        </button>
-      </header>
+    <div className="wrapper">
+      <Panel title="WHO ARE WE" className="panel1"
+             text="We are a community of disciples in mission. Having received the call in to be “the salt of the earth and light of the world,” we have come to be known as God’s Light."
+             buttonLink="/who-are-we" buttonLabel="Read More"/>
+      <Panel title="Our Covenant" className="panel2"
+             text="In Christ, God has made a covenant with God's Light, a covenant which God's Light members have joyfully received and entered into by faith and baptism. "
+             buttonLink="/our-covenant" buttonLabel="Read More"/>
+      <Panel title="Lorem Ipsum" className="panel5" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua." buttonLink="/our-covenant" buttonLabel="Read More"/>
     </div>
 
     <SectionRow title="God's Light is a community of disciples"
-    text="We have made our commitment to God and each other. We gather together to share our faith and fellowship allowing the Light of our Lord to shine brightly in us and in the way we live." />
+                text="We have made our commitment to God and each other. We gather together to share our faith and fellowship allowing the Light of our Lord to shine brightly in us and in the way we live."/>
 
     <div className="wrapper">
       <header className="panel3">
@@ -185,7 +164,8 @@ const Main = () => (
       </header>
     </div>
 
-    <SectionRow title="Come! You are welcome to join us" text="We meet twice a month, 1st and 3rd Sunday of the week. Hope to see you there!" />
+    <SectionRow title="Come! You are welcome to join us"
+                text="We meet twice a month, 1st and 3rd Sunday of the week. Hope to see you there!"/>
 
     <div className="wrapper">
       <header className="panel1">
@@ -258,18 +238,18 @@ const App = () => (
 export default App;
 
 /*
-<Cover>
-</Cover>
-<SectionRow>
-</SectionRow>
-<Wrapper>
-  <Card>
-  </Card>
+ <Cover>
+ </Cover>
+ <SectionRow>
+ </SectionRow>
+ <Wrapper>
  <Card>
  </Card>
  <Card>
  </Card>
-</Wrapper>
+ <Card>
+ </Card>
+ </Wrapper>
 
 
  */
