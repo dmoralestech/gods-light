@@ -159,8 +159,9 @@ const Main = () => (
                 text="We have made our commitment to God and each other. We gather together to share our faith and fellowship allowing the Light of our Lord to shine brightly in us and in the way we live."/>
 
     <div className="wrapper">
-      <Panel title="Announcements" className="panel4" text="Easter celebration would be this Sunday 1st April at 11:30am at Epping."/>
-      <Panel title="What's coming up?" className="panel4" text={<EventList/>} buttonLink="" buttonLabel />
+      <Panel title="Announcements" className="panel4"
+             text="Easter celebration would be this Sunday 1st April at 11:30am at Epping."/>
+      <Panel title="What's coming up?" className="panel4" text={<EventList/>} buttonLink="" buttonLabel/>
 
     </div>
 
@@ -170,9 +171,11 @@ const Main = () => (
     <div className="wrapper">
       <Panel title="Leader's Corner" className="panel1" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-       ea commodo consequat." buttonLink="/missing" buttonLabel="Read More" />
-      <Panel title="Sharings & Reflections" className="panel3" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit" buttonLink="/missing" buttonLabel="Read More" />
-      <Panel title="Contact Us" className="panel5" text={<ContactUs/>} buttonLink="" buttonLabel />
+       ea commodo consequat." buttonLink="/missing" buttonLabel="Read More"/>
+      <Panel title="Sharings & Reflections" className="panel3"
+             text="Lorem ipsum dolor sit amet, consectetur adipiscing elit" buttonLink="/missing"
+             buttonLabel="Read More"/>
+      <Panel title="Contact Us" className="panel5" text={<ContactUs/>} buttonLink="" buttonLabel/>
     </div>
 
   </div>
@@ -200,19 +203,3 @@ const App = () => (
 
 export default App;
 
-/*
- <Cover>
- </Cover>
- <SectionRow>
- </SectionRow>
- <Wrapper>
- <Card>
- </Card>
- <Card>
- </Card>
- <Card>
- </Card>
- </Wrapper>
-
-
- */
