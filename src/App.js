@@ -132,6 +132,13 @@ const EventList = () => (
   </ul>
 );
 
+const ContactUs = () => (
+  <p>
+    Please email <a className="email" href="mailto:jawo@ginebra.com?Subject=Ginebra">Robert
+    Jaworski</a> for more info:
+  </p>
+);
+
 const Main = () => (
   <div className="main">
     <SectionRow title='God’s Light is a family-based covenant community in Sydney, Australia'
@@ -154,55 +161,18 @@ const Main = () => (
     <div className="wrapper">
       <Panel title="Announcements" className="panel4" text="Easter celebration would be this Sunday 1st April at 11:30am at Epping."/>
       <Panel title="What's coming up?" className="panel4" text={<EventList/>} buttonLink="" buttonLabel />
-      {/*<Panel title="" className="" text="" buttonLink="" buttonLabel />*/}
+
     </div>
 
     <SectionRow title="Come! You are welcome to join us"
                 text="We meet twice a month, 1st and 3rd Sunday of the week. Hope to see you there!"/>
 
     <div className="wrapper">
-      <header className="panel1">
-        <h2>Leader's Corner</h2>
-        <div className="box-text-area">
-          <p className="box-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat.
-          </p>
-        </div>
-        <button
-          type="button"
-          className="btn"
-        >
-          <Link to='/missing'>Read More</Link>
-        </button>
-      </header>
-      <header className="panel3">
-        <h2>Sharings & Reflections</h2>
-        <div className="box-text-area">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat.
-          </p>
-        </div>
-        <button
-          type="button"
-          className="btn"
-        >
-          <Link to='/missing'>Read More</Link>
-        </button>
-      </header>
-
-      <header className="panel5">
-        <h2> Contact Us </h2>
-        <div className="box-text-area">
-          <p className="box-text">
-            Please email <a className="email" href="mailto:jawo@ginebra.com?Subject=Ginebra">Robert
-            Jaworski</a> for more info:
-          </p>
-        </div>
-      </header>
+      <Panel title="Leader's Corner" className="panel1" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+       dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+       ea commodo consequat." buttonLink="/missing" buttonLabel="Read More" />
+      <Panel title="Sharings & Reflections" className="panel3" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit" buttonLink="/missing" buttonLabel="Read More" />
+      <Panel title="Contact Us" className="panel5" text={<ContactUs/>} buttonLink="" buttonLabel />
     </div>
 
   </div>
