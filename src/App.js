@@ -162,7 +162,6 @@ const Main = () => (
       <Panel title="Announcements" className="panel4"
              text="Easter celebration would be this Sunday 1st April at 11:30am at Epping."/>
       <Panel title="What's coming up?" className="panel4" text={<EventList/>} buttonLink="" buttonLabel/>
-
     </div>
 
     <SectionRow title="Come! You are welcome to join us"
@@ -199,7 +198,6 @@ const App = () => (
     <Footer />
   </div>
 );
-
 
 export default App;
 
