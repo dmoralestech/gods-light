@@ -141,6 +141,7 @@ const ContactUs = () => (
 
 const Main = () => (
   <div className="main">
+
     <SectionRow title='God’s Light is a family-based covenant community in Sydney, Australia'
                 text='Having received the call in to be “the salt of the earth and light of the world,” we have come to be known as God’s Light. Symbolised by the “bridge” that has become an icon for Sydney, God’s Light sees itself as being a B-R-I-D-G-E.'/>
 
