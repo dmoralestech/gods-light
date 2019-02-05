@@ -106,6 +106,7 @@ const SectionRow = (props) => (
     <div className="section-text">
       {props.text}
     </div>
+    {props.children}
   </div>
 );
 
@@ -159,10 +160,12 @@ const Main = () => (
     <SectionRow title="God's Light is a community of disciples" icon={jesus}
                 text="We have made our commitment to God and each other. We gather together to share our faith and fellowship allowing the Light of our Lord to shine brightly in us and in the way we live."/>
 
+    <div className="header-title">Schedule</div>
     <div className="wrapper-events">
       <ActivityCard  date="February 10"  day="Sunday" type="Prayer Meeting" details="Community Report - No guests" location="West Epping Community Centre Entry via Downing Street, Epping NSW" time="2-5pm" />
       <ActivityCard  date="February 15/16"  day="Fri/Sat" type="MWG" details="Sharing" />
       <ActivityCard  date="February 24"  day="Sunday" type="Prayer Meeting" details="Day of Dedication" location="West Epping Community Centre Entry via Downing Street, Epping NSW" time="2-5pm"  />
+      <ActivityCard  date="March 1/2"  day="Fri/Sat" type="MWG" details="Marriage Course Talk 3" />
     </div>
 
     <SectionRow title="Come! You are welcome to join us" icon={pray}
