@@ -287,6 +287,11 @@ h4 {
     font-weight: 800;
   }
 
+  .header-title {
+    font-weight: 800;
+    font-size: 24px;
+  }
+
   .section-text {
     font-size: 18px;
     font-weight: 400;
@@ -344,6 +349,11 @@ h4 {
   .section-title {
     font-size: 36px;
     font-weight: 800;
+  }
+
+  .header-title {
+    font-weight: 800;
+    font-size: 36px;
   }
 
   .section-text {

@@ -6,7 +6,7 @@ import './ActivityCard.css';
 const ActivityCard = ({ date, day, type, details, location, time }) => {
   return (
     <div className="activity-card">
-      <div className={classNames("activity-card-header",  { "activity-card-type-mwg":  type === "MWG" }, { "activity-card-type-other":  type !== "MWG" })}>
+      <div className={classNames("activity-card-header",  { "activity-card-type-mwg":  type === "MWG" }, { "activity-card-type-other":  type === "Other" }, { "activity-card-type-pm":  type !== "MWG" })}>
         <div className="activity-card-date">{date} ({day})</div>
         <div className="activity-card-type">{type}</div>
       </div>

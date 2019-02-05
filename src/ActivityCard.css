@@ -12,9 +12,12 @@
   background-color: #DC7012; /* rgba(127, 127, 127, 0.15);*/
 }
 
+.activity-card-type-pm {
+  background-color: #167C80; /* rgba(127, 127, 127, 0.15);*/
+}
 
 .activity-card-type-other {
-  background-color: #167C80; /*rgba(127, 127, 127, 0.15);*/
+  background-color: #e0ffff; /*rgba(127, 127, 127, 0.15);*/
 }
 
 .activity-card-header {

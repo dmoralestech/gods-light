@@ -166,10 +166,11 @@ const Main = () => (
       <ActivityCard  date="February 15/16"  day="Fri/Sat" type="MWG" details="Sharing" />
       <ActivityCard  date="February 24"  day="Sunday" type="Prayer Meeting" details="Day of Dedication" location="West Epping Community Centre Entry via Downing Street, Epping NSW" time="2-5pm"  />
       <ActivityCard  date="March 1/2"  day="Fri/Sat" type="MWG" details="Marriage Course Talk 3" />
+      <ActivityCard  date="March 6"  day="Fri/Sat" type="Other" details="Ash Wednesday" />
     </div>
 
     <SectionRow title="Come! You are welcome to join us" icon={pray}
-                text="We meet twice a month, 1st and 3rd Sunday of the week. Hope to see you there!"/>
+                text="We meet twice a month, *normally* 2nd and 4th Sunday of the week. Hope to see you there!"/>
 
   </div>
 );
