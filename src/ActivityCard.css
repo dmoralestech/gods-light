@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  box-shadow: 5px 5px rgba(127, 127, 127, 0.15);
 }
 
 .activity-card-type-mwg {
