@@ -3,7 +3,7 @@ import React from 'react';
 
 const Card = props => {
   return (
-    <div class="card">
+    <div class="card" >
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <h6 class="card-subtitle">Card subtitle</h6>

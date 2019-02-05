@@ -4,6 +4,7 @@ import {
   Route,
   Link
 } from 'react-router-dom';
+import ActivityCard from './ActivityCard';
 import logo from './img/logo1.png';
 import jesus from './img/jesus.svg';
 import family from './img/family.svg';
@@ -13,10 +14,11 @@ import church from './img/church.svg';
 import pray from './img/pray.svg';
 import './App.css';
 
+
 const Cover = () => (
   <div className="cover">
     <div className="header-title-container">
-      <img src={logo} alt="logo" height="150px" width="125px"/>
+      {/*<img src={logo} alt="logo" height="150px" width="125px"/>*/}
       <h1>GOD'S LIGHT</h1>
       <h1>SYDNEY</h1>
       <h4>“You are the light of the world.” (Matthew 5: 14)</h4>
@@ -26,7 +28,7 @@ const Cover = () => (
 
 const Footer = () => (
   <div className="footer-row">
-    God's Light 2004-2018
+    God's Light 2004-2019
     <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a
       href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a
       href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
@@ -142,7 +144,7 @@ const ContactUs = () => (
 const Main = () => (
   <div className="main">
 
-    <SectionRow title='God’s Light is a family-based covenant community in Sydney, Australia'
+    <SectionRow title='God’s Light is a family-based covenant community in Sydney, Australia' icon={family}
                 text='Having received the call in to be “the salt of the earth and light of the world,” we have come to be known as God’s Light. Symbolised by the “bridge” that has become an icon for Sydney, God’s Light sees itself as being a B-R-I-D-G-E.'/>
 
     <div className="wrapper">
@@ -152,43 +154,31 @@ const Main = () => (
       <Panel title="Our Covenant" className="panel2"
              text="In Christ, God has made a covenant with God's Light, a covenant which God's Light members have joyfully received and entered into by faith and baptism. "
              buttonLink="/our-covenant" buttonLabel="Read More"/>
-      <Panel title="Lorem Ipsum" className="panel5" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua." buttonLink="/our-covenant" buttonLabel="Read More"/>
     </div>
 
-    <SectionRow title="God's Light is a community of disciples"
+    <SectionRow title="God's Light is a community of disciples" icon={jesus}
                 text="We have made our commitment to God and each other. We gather together to share our faith and fellowship allowing the Light of our Lord to shine brightly in us and in the way we live."/>
 
-    <div className="wrapper">
-      <Panel title="Announcements" className="panel4"
-             text="Easter celebration would be this Sunday 1st April at 11:30am at Epping."/>
-      <Panel title="What's coming up?" className="panel4" text={<EventList/>} buttonLink="" buttonLabel/>
+    <div className="wrapper-events">
+      <ActivityCard  date="February 10"  day="Sunday" type="Prayer Meeting" details="Community Report - No guests" location="West Epping Community Centre Entry via Downing Street, Epping NSW" time="2-5pm" />
+      <ActivityCard  date="February 15/16"  day="Fri/Sat" type="MWG" details="Sharing" />
+      <ActivityCard  date="February 24"  day="Sunday" type="Prayer Meeting" details="Day of Dedication" location="West Epping Community Centre Entry via Downing Street, Epping NSW" time="2-5pm"  />
     </div>
 
-    <SectionRow title="Come! You are welcome to join us"
+    <SectionRow title="Come! You are welcome to join us" icon={pray}
                 text="We meet twice a month, 1st and 3rd Sunday of the week. Hope to see you there!"/>
-
-    <div className="wrapper">
-      <Panel title="Leader's Corner" className="panel1" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-       dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-       ea commodo consequat." buttonLink="/missing" buttonLabel="Read More"/>
-      <Panel title="Sharings & Reflections" className="panel3"
-             text="Lorem ipsum dolor sit amet, consectetur adipiscing elit" buttonLink="/missing"
-             buttonLabel="Read More"/>
-      <Panel title="Contact Us" className="panel5" text={<ContactUs/>} buttonLink="" buttonLabel/>
-    </div>
 
   </div>
 );
 
 const App = () => (
   <div>
-    <div className="topnav" id="myTopnav">
-      <a href="#home" className="active">Home</a>
-      <a href="#who-are-we">Who Are We</a>
-      <a href="#our-covenant">Our Covenant</a>
-      <a href="javascript:void(0);" className="icon" onClick="myFunction()">&#9776;</a>
-    </div>
+    {/*<div className="topnav" id="myTopnav">*/}
+      {/*<a href="#home" className="active">Home</a>*/}
+      {/*<a href="#who-are-we">Who Are We</a>*/}
+      {/*<a href="#our-covenant">Our Covenant</a>*/}
+      {/*<a href="javascript:void(0);" className="icon" onClick="myFunction()">&#9776;</a>*/}
+    {/*</div>*/}
     <Cover />
     <Switch>
       <Route exact path='/' component={Main}/>

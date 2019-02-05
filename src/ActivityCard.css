@@ -1,0 +1,66 @@
+.activity-card {
+  background-color: rgba(127, 127, 127, 0.1);
+  font-family: 'Roboto Mono', monospace;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.activity-card-type-mwg {
+  background-color: #DC7012; /* rgba(127, 127, 127, 0.15);*/
+}
+
+
+.activity-card-type-other {
+  background-color: #167C80; /*rgba(127, 127, 127, 0.15);*/
+}
+
+.activity-card-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 12px;
+}
+
+.activity-card-header-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  width: 100%;
+  padding: 18px;
+}
+
+.activity-card-date {
+  font-size: 20px;
+  font-weight: 800;
+  color: #0D2C5B;
+}
+
+.activity-card-type {
+  font-size: 14px;
+  font-weight: 600;
+  color: #0D2C5B;
+}
+
+.activity-card-details {
+  font-size: 16px;
+  font-weight: 800;
+  color: #0D2C5B;
+  margin: 12px 12px 0 12px;
+}
+
+.activity-card-location {
+  font-size: 14px;
+  font-weight: 600;
+  color: #5E82A3;
+}
+
+.activity-card-time {
+  font-size: 14px;
+  font-weight: 700;
+  color: #167C80;
+}
