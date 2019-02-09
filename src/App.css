@@ -95,7 +95,7 @@ ul {
 }
 
 li, p {
-  color: black;
+  color: #0D2C5B;
   margin-bottom: 3px;
   font-size: 20px;
 }
@@ -156,6 +156,7 @@ h2 {
   font-weight: 800;
   text-align: center;
   text-transform: uppercase;
+  color: #0D2C5B;
 }
 
 h4 {
@@ -206,17 +207,19 @@ button a {
 
 .panel1 {
   background-color: #DC7012;
-  background-image: url('./img/landscape.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
+  border-radius: 12px;
+  /*background-image: url('./img/landscape.jpg');*/
+  /*background-repeat: no-repeat;*/
+  /*background-size: cover;*/
 }
 
 .panel2 {
   background-color: #D3D5D4;
   color: #000000;
-  background-image: url('./img/lightray.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
+  border-radius: 12px;
+  /*background-image: url('./img/lightray.jpg');*/
+  /*background-repeat: no-repeat;*/
+  /*background-size: cover;*/
 }
 
 .panel3 {
@@ -422,7 +425,7 @@ button a {
 
 .box-text {
   opacity: 1;
-  color: black;
+  color: #0D2C5B;
   font-size: 20px;
 }
 
