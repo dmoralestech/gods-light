@@ -59,6 +59,12 @@ const WhoAreWe = () => (
       God being at the centre of our lives. As such, we are called to be Evangelists - witnesses to God’s work
       in our individual lives. Together we shall bring God’s Light to others.
     </p>
+
+    <div className="button-container">
+      <button type="button" className="btn">
+        <Link to={"/home"}>Home</Link>
+      </button>
+    </div>
   </div>
 );
 
@@ -93,6 +99,13 @@ const OurCovenant = () => (
       <li>To widen our hearts to receive those he adds to God's Light, and</li>
       <li>To carry out the mission that He is entrusting to God's Light.</li>
     </ul>
+
+    <div className="button-container">
+      <button type="button" className="btn">
+        <Link to={"/home"}>Home</Link>
+      </button>
+    </div>
+
   </div>
 );
 
