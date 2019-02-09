@@ -155,6 +155,7 @@ h1 {
   padding: 0;
   color: #0D2C5B;
   text-shadow: 2px 2px #5E82A3;
+  text-align: center;
 }
 
 h2 {
@@ -273,6 +274,7 @@ button a:hover {
     font-size: 50px;
     font-weight: 900;
     margin: 0;
+    text-align: center;
   }
 
   h2 {
@@ -345,6 +347,7 @@ button a:hover {
 @media (min-width: 768px) and (max-width: 1224px) {
   h1 {
     font-size: 100px;
+    text-align: center;
   }
 
   h2 {
