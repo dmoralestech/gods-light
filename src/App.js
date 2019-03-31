@@ -165,7 +165,7 @@ const Main = () => (
       <Panel title="WHO ARE WE" className="panel1"
              text="We are a community of disciples in mission. Having received the call in to be “the salt of the earth and light of the world,” we have come to be known as God’s Light."
              buttonLink="/who-are-we" buttonLabel="Read More"/>
-      <Panel title="Our Covenant" className="panel2"
+      <Panel title="Our Covenant" className="panel1"
              text="In Christ, God has made a covenant with God's Light, a covenant which God's Light members have joyfully received and entered into by faith and baptism. "
              buttonLink="/our-covenant" buttonLabel="Read More"/>
     </div>

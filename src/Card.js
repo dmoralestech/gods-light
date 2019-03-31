@@ -20,7 +20,6 @@ const Card = props => {
             Link</a>
         </div>
     </div>
-  )
-  };
+  )};
 
   export default Card;

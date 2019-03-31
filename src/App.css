@@ -53,6 +53,7 @@ body {
   padding-right: 250px;
   background-color: rgba(0, 0, 0, 0.06);
   margin-bottom: 32px;
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
@@ -165,6 +166,7 @@ h2 {
   text-align: center;
   text-transform: uppercase;
   color: #0D2C5B;
+  margin: 12px;
 }
 
 h4 {
@@ -213,13 +215,9 @@ button a:hover {
 
 
 .panel1 {
-  /*background-color: hsla(150, 2%, 40%, 1);*/
-  background-color: hsla(0, 0%, 0%, 0.26);
-  /*background-color: #DC7012;*/
+  background-color: rgba(0, 0, 0, 0.09);
   border-radius: 12px;
-  /*background-image: url('./img/landscape.jpg');*/
-  /*background-repeat: no-repeat;*/
-  /*background-size: cover;*/
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .panel2 {
@@ -424,8 +422,8 @@ button a:hover {
 }
 
 .box-text-area {
-  opacity: 0.6;
-  background-color: white;
+  /*opacity: 0.6;*/
+  /*background-color: white;*/
   font-weight: 500;
   /*background-color: #DCE7F2;*/
   padding: 18px;
@@ -436,7 +434,7 @@ button a:hover {
 
 .box-text {
   opacity: 1;
-  color: hsla(0, 0%, 0%, 0.95);
+  /*color: hsla(0, 0%, 0%, 0.95);*/
   font-size: 20px;
   font-weight: 600;
 }
