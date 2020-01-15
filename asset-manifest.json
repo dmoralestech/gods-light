@@ -1,15 +1,17 @@
 {
-  "main.css": "static/css/main.5982ae71.css",
-  "main.css.map": "static/css/main.5982ae71.css.map",
-  "main.js": "static/js/main.a0a88a0c.js",
-  "main.js.map": "static/js/main.a0a88a0c.js.map",
+  "main.css": "static/css/main.fef0da0e.css",
+  "main.css.map": "static/css/main.fef0da0e.css.map",
+  "main.js": "static/js/main.b6a7f33a.js",
+  "main.js.map": "static/js/main.b6a7f33a.js.map",
   "static/media/announce.jpg": "static/media/announce.25a02a14.jpg",
   "static/media/church.svg": "static/media/church.7b971b2a.svg",
+  "static/media/commandments.svg": "static/media/commandments.19dfb678.svg",
   "static/media/family.svg": "static/media/family.a2794c46.svg",
   "static/media/family_black.svg": "static/media/family_black.572bbb46.svg",
   "static/media/family_white.svg": "static/media/family_white.8ac805c9.svg",
   "static/media/jesus.svg": "static/media/jesus.3729b2fc.svg",
   "static/media/pray.svg": "static/media/pray.2ae3784a.svg",
+  "static/media/spiritual.svg": "static/media/spiritual.b7f561f1.svg",
   "static/media/sunrays.jpg": "static/media/sunrays.7dd899c7.jpg",
   "static/media/sunrays_small.jpg": "static/media/sunrays_small.e4f4701f.jpg"
 }
