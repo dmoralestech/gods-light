@@ -54,6 +54,7 @@ body {
   background-color: rgba(0, 0, 0, 0.06);
   margin-bottom: 32px;
   box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  min-height: 1000px;
 }
 
 
@@ -108,7 +109,7 @@ ul {
 li, p {
   color: #0D2C5B;
   margin-bottom: 3px;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .wrapper {
@@ -119,6 +120,7 @@ li, p {
   grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
   grid-auto-rows: minmax(300px, auto);
   padding: 32px 16px 32px;
+  height: 100vh;
 }
 
 .wrapper > * {
@@ -292,14 +294,22 @@ button a:hover {
   }
 
   .section-row {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     padding-right: 30px;
     padding-left: 30px;
     width: inherit;
+    min-height: 600px;
+    overflow: hidden;
+  }
+
+  .section-row  img {
+    height: 50px !important;
+    width: 50px !important;
   }
 
   .section-title {
+    margin-top: 20px;
     font-size: 24px;
     font-weight: 800;
   }
@@ -309,14 +319,15 @@ button a:hover {
     font-size: 24px;
   }
 
-  .section-text {
-    font-size: 18px;
+  .section-text, ul, li {
+    font-size: 12px;
     font-weight: 400;
   }
 
   .page-title {
     font-size: 30px;
     font-weight: 800;
+    margin-bottom: 0 !important;
   }
 
   .wrapper {
@@ -356,12 +367,15 @@ button a:hover {
   h4 {
     font-size: 24px;
   }
+
   .section-row {
     padding-top: 80px;
     padding-bottom: 80px;
     padding-right: 50px;
     padding-left: 50px;
     width: 100vw;
+    height: 1000px;
+    overflow: hidden;
   }
 
   .section-title {
@@ -374,7 +388,7 @@ button a:hover {
     font-size: 36px;
   }
 
-  .section-text {
+  .section-text, ul, li {
     font-size: 24px;
   }
 
