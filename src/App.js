@@ -4,8 +4,6 @@ import {
   Route,
   Link
 } from 'react-router-dom';
-import ActivityCard from './ActivityCard';
-import logo from './img/logo1.png';
 import jesus from './img/jesus.svg';
 import family from './img/family.svg';
 import familyBlack from './img/family_black.svg';
@@ -16,11 +14,19 @@ import spiritual from './img/spiritual.svg';
 import commandments from './img/commandments.svg';
 import './App.css';
 
+const Nav = () => (
+  <div class="topnav" id="myTopnav">
+    <a href="#home">Home</a>
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+);
 
 const Cover = () => (
-  <div className="cover">
+  <div id="home" className="cover">
     <div className="header-title-container">
-      {/*<img src={logo} alt="logo" height="150px" width="125px"/>*/}
       <h1>GOD'S LIGHT</h1>
       <h1>SYDNEY</h1>
       <h4>“You are the light of the world.” (Matthew 5: 14)</h4>
@@ -39,7 +45,7 @@ const Footer = () => (
 );
 
 const WhoAreWe = () => (
-  <div className="section-row">
+  <div id="who-are-we" className="section-row">
     <img src={spiritual} style={{width: '100px', height: "100px"}}/>
     <div className="page-title">
       Who Are We
@@ -62,17 +68,18 @@ const WhoAreWe = () => (
       God being at the centre of our lives. As such, we are called to be Evangelists - witnesses to God’s work
       in our individual lives. Together we shall bring God’s Light to others.
     </p>
-
-    {/*<div className="button-container">*/}
-      {/*<button type="button" className="btn">*/}
-        {/*<Link to={"/home"}>Home</Link>*/}
-      {/*</button>*/}
-    {/*</div>*/}
   </div>
 );
 
+const Schedule = () => (
+  <div class="section-row" id="schedule">
+    <div class="section-title">Schedule</div>
+    <embed src="./calendar.pdf" width="100%" height="500px" type="application/pdf"/>
+  </div>
+)
+
 const OurCovenant = () => (
-  <div className="section-row">
+  <div className="section-row" id="covenant">
     <img src={commandments} style={{width: '100px', height: "100px"}}/>
     <div className="page-title">
       Our Covenant
@@ -94,24 +101,19 @@ const OurCovenant = () => (
       <li>To love and serve Him in lives of daily prayer and service;</li>
       <li>To praise and worship Him always;</li>
       <li>To know and serve the truth of His Word in the joy, peace, and love of the Holy Spirit;</li>
-      <li>To believe what He speaks to God's Light and to be obedient to the truth of his Word and the guidance of His Spirit;</li>
+      <li>To believe what He speaks to God's Light and to be obedient to the truth of his Word and the guidance of His
+        Spirit;
+      </li>
       <li>To offer hospitality to those whom He sends to God's Light;</li>
       <li>To widen our hearts to receive those he adds to God's Light, and</li>
       <li>To carry out the mission that He is entrusting to God's Light.</li>
     </ul>
-
-    {/*<div className="button-container">*/}
-      {/*<button type="button" className="btn">*/}
-        {/*<Link to={"/home"}>Home</Link>*/}
-      {/*</button>*/}
-    {/*</div>*/}
-
   </div>
 );
 
 
 const SectionRow = (props) => (
-  <div className="section-row">
+  <div className="section-row" id={props.id}>
     {props.icon && <img src={props.icon} style={{width: '100px', height: "100px"}}/>}
     <div className="section-title">
       {props.title}
@@ -143,48 +145,36 @@ const Panel = ({className, title, textArray, buttonLink, buttonLabel}) => (
 );
 
 const Main = () => (
-  <div className="main">
+    <div className="main">
 
-    <SectionRow title='God’s Light is a family-based covenant community in Sydney, Australia' icon={family}
-                text='Having received the call in to be “the salt of the earth and light of the world,” we have come to be known as God’s Light. Symbolised by the “bridge” that has become an icon for Sydney, God’s Light sees itself as being a B-R-I-D-G-E.'/>
-    <WhoAreWe/>
+      <SectionRow id="about" title='God’s Light is a family-based covenant community in Sydney, Australia' icon={family}
+                  text='Having received the call in to be “the salt of the earth and light of the world,” we have come to be known as God’s Light. Symbolised by the “bridge” that has become an icon for Sydney, God’s Light sees itself as being a B-R-I-D-G-E.'/>
+      <WhoAreWe/>
 
-    <OurCovenant/>
-    {/*<div className="wrapper">*/}
-      {/*<Panel title="WHO ARE WE" className="panel1"*/}
-             {/*textArray={["We are a community of disciples in mission. Having received the call in to be the salt of the earth and light of the world we have come to be known as Gods Light.",*/}
-             {/*"Having received the call in to be “the salt of the earth and light of the world,” we have come to be known  as Gods Light. Symbolised by the “bridge” that has become an icon for Sydney, God’s Light sees itself as being a B-R-I-D-G-E."]}*/}
-             {/*buttonLink="/who-are-we" buttonLabel="Read More"/>*/}
-      {/*<Panel title="Our Covenant" className="panel1"*/}
-             {/*textArray={["In Christ, God has made a covenant with God's Light, a covenant which God's Light members have joyfully received and entered into by faith and baptism. "]}*/}
-      {/*buttonLink="/our-covenant" buttonLabel="Read More"/>*/}
-  {/*</div>*/}
+      <OurCovenant/>
 
-<SectionRow title="God's Light is a community of disciples" icon={jesus}
-            text="We have made our commitment to God and each other. We gather together to share our faith and fellowship allowing the Light of our Lord to shine brightly in us and in the way we live."/>
+      <SectionRow id="about2" title="God's Light is a community of disciples" icon={jesus}
+                  text="We have made our commitment to God and each other. We gather together to share our faith and fellowship allowing the Light of our Lord to shine brightly in us and in the way we live."/>
 
-<SectionRow title="Come! You are welcome to join us" icon={pray}
-            text="We meet twice a month, *normally* 2nd and 4th Sunday of the week. Hope to see you there!"/>
+      <SectionRow title="Come! You are welcome to join us" icon={pray}
+                  text="We meet twice a month, *normally* 2nd and 4th Sunday of the week. Hope to see you there!"/>
 
-</div>
-)
-;
+      <Schedule/>
+    </div>
+  )
+  ;
 
 const App = () => (
   <div>
-    {/*<div className="topnav" id="myTopnav">*/}
-    {/*<a href="#home" className="active">Home</a>*/}
-    {/*<a href="#who-are-we">Who Are We</a>*/}
-    {/*<a href="#our-covenant">Our Covenant</a>*/}
-    {/*<a href="javascript:void(0);" className="icon" onClick="myFunction()">&#9776;</a>*/}
-    {/*</div>*/}
+    <div className="topnav" id="myTopnav">
+      <a href="#home" className="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#who-are-we">Who Are We</a>
+      <a href="#covenant">Our Covenant</a>
+      <a href="#schedule">Schedule</a>
+    </div>
     <Cover />
-    <Switch>
-      <Route exact path='/' component={Main}/>
-      <Route exact path='/home' component={Main}/>
-      <Route path='/who-are-we' component={WhoAreWe}/>
-      <Route path='/our-covenant' component={OurCovenant}/>
-    </Switch>
+    <Main />
     <Footer />
   </div>
 );
