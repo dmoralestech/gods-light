@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://dmoralestech.github.io/",
   "devDependencies": {
-    "react-scripts": "1.1.1"
+    "react-scripts": "5.0.1"
   },
   "dependencies": {
     "classnames": "^2.2.6",
